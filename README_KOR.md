@@ -10,12 +10,6 @@
 
 </div>
 
-## 🚩 구조
-
-<div align="center">
-  <img src="./docs/static/img/eliza_diagram.jpg" alt="TELE Diagram" width="100%" />
-</div>
-
 ## ✨ 기능
 
 - 🛠 SNS 지원: 디스코드, 트위터, 텔레그램 연동 지원
