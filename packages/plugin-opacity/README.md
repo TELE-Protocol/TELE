@@ -1,6 +1,6 @@
 # @elizaos/adapter-opacity
 
-This adapter integrates Opacity proofs into ElizaOS, enabling verifiable inference results from various AI model providers available through the [CloudFlare AI Gateway](https://developers.cloudflare.com/ai-gateway). It implements the `IVerifiableInferenceAdapter` interface, making it compatible with other verifiable inference solutions.
+This adapter integrates Opacity proofs into TELE-Protocol, enabling verifiable inference results from various AI model providers available through the [CloudFlare AI Gateway](https://developers.cloudflare.com/ai-gateway). It implements the `IVerifiableInferenceAdapter` interface, making it compatible with other verifiable inference solutions.
 
 ## Installation
 
@@ -103,19 +103,19 @@ This allows you to:
 ```mermaid
 sequenceDiagram
     autonumber
-    participant Eliza
+    participant TELE
     participant Cloudflare
     participant OpenAI
-    Eliza ->> Cloudflare : Prompt Req
+    TELE ->> Cloudflare : Prompt Req
     Cloudflare ->> OpenAI : Prompt Req
     OpenAI ->> Cloudflare : Prompt Response
     Cloudflare ->> Cloudflare : Log Prompt Response
-    Cloudflare ->> Eliza : Prompt Response
+    Cloudflare ->> TELE : Prompt Response
     create participant Opacity
-    Eliza ->> Opacity : Generate Proof for Prompt Response
+    TELE ->> Opacity : Generate Proof for Prompt Response
     Opacity ->> Cloudflare : Fetch Prompt Response Log in MPC-TLS
     Cloudflare ->> Opacity : Respond with Prompt Response Log
-    Opacity ->> Eliza : Return Proof of Prompt Response Log
+    Opacity ->> TELE : Return Proof of Prompt Response Log
 ```
 
 ## License

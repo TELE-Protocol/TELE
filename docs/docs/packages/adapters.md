@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Overview
 
-Database Adapters provide Eliza's persistence layer, enabling storage and retrieval of memories, relationships, goals, and other data through a unified interface. The system supports multiple database backends:
+Database Adapters provide TELE's persistence layer, enabling storage and retrieval of memories, relationships, goals, and other data through a unified interface. The system supports multiple database backends:
 
 ### Available Adapters
 
@@ -37,7 +37,7 @@ Each adapter is optimized for different use cases:
 
 ### Architecture Overview
 
-Eliza's database adapters provide a unified interface for data persistence across different storage backends. The following diagram shows how adapters integrate with the system:
+TELE's database adapters provide a unified interface for data persistence across different storage backends. The following diagram shows how adapters integrate with the system:
 
 ```mermaid
 classDiagram

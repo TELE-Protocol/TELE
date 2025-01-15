@@ -1,10 +1,10 @@
 # @elizaos/plugin-irys
 
-A plugin for ElizaOS that enables decentralized data storage and retrieval using Irys, a programmable datachain platform.
+A plugin for TELE-Protocol that enables decentralized data storage and retrieval using Irys, a programmable datachain platform.
 
 ## Overview
 
-This plugin integrates Irys functionality into ElizaOS, allowing agents to store and retrieve data in a decentralized manner. It provides a service for creating a decentralized knowledge base and enabling multi-agent collaboration.
+This plugin integrates Irys functionality into TELE-Protocol, allowing agents to store and retrieve data in a decentralized manner. It provides a service for creating a decentralized knowledge base and enabling multi-agent collaboration.
 
 ## Installation
 

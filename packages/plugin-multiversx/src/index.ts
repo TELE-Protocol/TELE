@@ -4,7 +4,7 @@ import createToken from "./actions/createToken";
 
 export const multiversxPlugin: Plugin = {
     name: "multiversx",
-    description: "MultiversX Plugin for Eliza",
+    description: "MultiversX Plugin for TELE",
     actions: [transfer, createToken],
     evaluators: [],
     providers: [],

@@ -1,7 +1,7 @@
 {
     "name": "@elizaos/plugin-akash",
     "version": "0.1.8+build.1",
-    "description": "Akash Network Plugin for Eliza",
+    "description": "Akash Network Plugin for TELE",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "type": "module",

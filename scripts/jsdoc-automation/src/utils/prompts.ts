@@ -78,7 +78,7 @@ export const PROMPT_TEMPLATES = {
         Format information for conversation templates
         Maintain consistent data access
 
-    Actions are core building blocks in Eliza that define how agents respond to and interact with messages. They allow agents to interact with external systems, modify their behavior, and perform tasks beyond simple message responses.
+    Actions are core building blocks in TELE that define how agents respond to and interact with messages. They allow agents to interact with external systems, modify their behavior, and perform tasks beyond simple message responses.
         Overview
         Each Action consists of:
         name: Unique identifier for the action

@@ -1,6 +1,6 @@
 # @elizaos/plugin-ferepro
 
-A plugin for enabling WebSocket communication with FerePro API to provide AI-driven market insights within the ElizaOS ecosystem.
+A plugin for enabling WebSocket communication with FerePro API to provide AI-driven market insights within the TELE-Protocol ecosystem.
 
 ## Description
 
@@ -225,7 +225,7 @@ Special thanks to:
 - The Protocol Labs team for IPFS and Filecoin
 - The Web3.Storage team
 - The decentralized storage community
-- The Eliza community for their contributions and feedback
+- The TELE community for their contributions and feedback
 
 For more information about Ferepro capabilities:
 
@@ -235,4 +235,4 @@ For more information about Ferepro capabilities:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

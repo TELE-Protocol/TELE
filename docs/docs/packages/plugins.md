@@ -2,13 +2,13 @@
 
 ## Overview
 
-Eliza's plugin system provides a modular way to extend the core functionality with additional features, actions, evaluators, and providers. Plugins are self-contained modules that can be easily added or removed to customize your agent's capabilities.
+TELE's plugin system provides a modular way to extend the core functionality with additional features, actions, evaluators, and providers. Plugins are self-contained modules that can be easily added or removed to customize your agent's capabilities.
 
 ## Core Plugin Concepts
 
 ### Plugin Structure
 
-Each plugin in Eliza must implement the `Plugin` interface with the following properties:
+Each plugin in TELE must implement the `Plugin` interface with the following properties:
 
 ```typescript
 interface Plugin {
@@ -133,7 +133,7 @@ Integrates Coinbase Commerce for payment and transaction management:
 - `GET_CHARGE_DETAILS` - Retrieve details for a specific charge
 
 **Description:**
-This plugin enables Eliza to interact with the Coinbase Commerce API to create and manage payment charges, providing seamless integration with cryptocurrency-based payment systems.
+This plugin enables TELE to interact with the Coinbase Commerce API to create and manage payment charges, providing seamless integration with cryptocurrency-based payment systems.
 
 ---
 
@@ -447,7 +447,7 @@ const response = await runtime.processAction("INVOKE_CONTRACT", {
 
 #### 8. TEE Plugin (`@elizaos/plugin-tee`)
 
-Integrates [Dstack SDK](https://github.com/Dstack-TEE/dstack) to enable TEE (Trusted Execution Environment) functionality and deploy secure & privacy-enhanced Eliza Agents:
+Integrates [Dstack SDK](https://github.com/Dstack-TEE/dstack) to enable TEE (Trusted Execution Environment) functionality and deploy secure & privacy-enhanced TELE Agents:
 
 **Actions:**
 
@@ -570,7 +570,7 @@ Manages webhooks using the Coinbase SDK, allowing for the creation and managemen
 
 **Description:**
 
-The Webhook Plugin enables Eliza to interact with the Coinbase SDK to create and manage webhooks. This allows for real-time event handling and notifications based on specific criteria set by the user.
+The Webhook Plugin enables TELE to interact with the Coinbase SDK to create and manage webhooks. This allows for real-time event handling and notifications based on specific criteria set by the user.
 
 **Usage Instructions:**
 
@@ -650,7 +650,7 @@ The Fuel plugin provides an interface to the Fuel Ignition blockchain.
 
 #### 11. Marlin TEE Plugin (`@elizaos/plugin-tee-marlin`)
 
-Makes Eliza TEE-aware by using the [Marlin Oyster](https://github.com/marlinprotocol/oyster-monorepo) platform tooling with the goal of making Eliza agents verifiable and private.
+Makes TELE TEE-aware by using the [Marlin Oyster](https://github.com/marlinprotocol/oyster-monorepo) platform tooling with the goal of making TELE agents verifiable and private.
 
 **Configuration:**
 
@@ -661,7 +661,7 @@ TEE_MARLIN=yes
 
 **Actions:**
 
-- `REMOTE_ATTESTATION`: Lets Eliza respond with a remote attestation that users can verify. Just ask Eliza for an attestation! E.g. "Attest yourself", "Give me a remote attestation".
+- `REMOTE_ATTESTATION`: Lets TELE respond with a remote attestation that users can verify. Just ask TELE for an attestation! E.g. "Attest yourself", "Give me a remote attestation".
 
 **REMOTE_ATTESTATION Configuration:**
 
@@ -673,7 +673,7 @@ TEE_MARLIN_ATTESTATION_ENDPOINT="http://127.0.0.1:1350"
 
 **REMOTE_ATTESTATION Usage:**
 
-Just ask Eliza for a remote attestation!
+Just ask TELE for a remote attestation!
 
 ```
 You: attest yourself
@@ -744,7 +744,7 @@ docker run --init -p 127.0.0.1:1350:1350 marlinorg/attestation-server-custom-moc
 
 ### 12. Allora Plugin (`@elizaos/allora-plugin`)
 
-The [Allora Network](https://allora.network) plugin seamlessly empowers Eliza agents with real-time, advanced, self-improving AI inferences, delivering high-performance insights without introducing any additional complexity.
+The [Allora Network](https://allora.network) plugin seamlessly empowers TELE agents with real-time, advanced, self-improving AI inferences, delivering high-performance insights without introducing any additional complexity.
 
 #### Setup and Configuration
 
@@ -773,7 +773,7 @@ Agent: "I'll get the inference now..."
 Agent: "Inference provided by Allora Network on topic ETH 5min Prediction (ID: 13): 3393.364326646801085508"
 ```
 
-For detailed information and additional implementation examples, please refer to the [Allora-Eliza integration docs](https://docs.allora.network/marketplace/integrations/eliza-os).
+For detailed information and additional implementation examples, please refer to the [Allora-TELE integration docs](https://docs.allora.network/marketplace/integrations/eliza-os).
 
 ### Writing Custom Plugins
 

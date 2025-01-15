@@ -48,7 +48,7 @@ export default function useVersion() {
                         description: "Visit GitHub for more information.",
                         action: (
                             <NavLink
-                                to="https://github.com/elizaos/eliza/releases"
+                                to="https://github.com/TELE-Protocol/TELE/releases"
                                 target="_blank"
                             >
                                 <ToastAction altText="Update">

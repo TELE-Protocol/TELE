@@ -1,6 +1,6 @@
-# Eliza
+# TELE
 
-<img src="./docs/static/img/eliza_banner.jpg" alt="Banner de Eliza" width="100%" />
+<img src="./docs/static/img/tele_banner.png" alt="Banner de TELE" width="100%" />
 
 ## Funcionalidades
 
@@ -44,7 +44,7 @@ pnpm i
 pnpm start
 ```
 
-# Personalizando a Eliza
+# Personalizando a TELE
 
 ### Agregando acciones personalizadas
 

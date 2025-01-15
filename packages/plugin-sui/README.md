@@ -1,6 +1,6 @@
 # @elizaos/plugin-sui
 
-Core Sui blockchain plugin for Eliza OS that provides essential services and actions for token operations and wallet management.
+Core Sui blockchain plugin for TELE OS that provides essential services and actions for token operations and wallet management.
 
 ## Overview
 
@@ -28,7 +28,7 @@ SUI_NETWORK=mainnet|testnet|devnet|localnet
 
 ## Usage
 
-Import and register the plugin in your Eliza configuration:
+Import and register the plugin in your TELE configuration:
 
 ```typescript
 import { suiPlugin } from "@elizaos/plugin-sui";
@@ -158,7 +158,7 @@ Special thanks to:
 - The Mysten Labs team for developing Sui
 - The Sui Developer community
 - The Sui SDK maintainers
-- The Eliza community for their contributions and feedback
+- The TELE community for their contributions and feedback
 
 For more information about Sui blockchain capabilities:
 
@@ -169,4 +169,4 @@ For more information about Sui blockchain capabilities:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

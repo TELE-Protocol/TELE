@@ -1,6 +1,6 @@
 # @elizaos/plugin-movement
 
-Movement Network plugin for Eliza OS. This plugin enables Movement Network blockchain functionality for your Eliza agent.
+Movement Network plugin for TELE OS. This plugin enables Movement Network blockchain functionality for your TELE agent.
 
 ## Features
 

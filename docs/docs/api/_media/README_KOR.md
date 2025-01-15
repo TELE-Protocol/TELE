@@ -1,6 +1,6 @@
-# Eliza
+# TELE
 
-<img src="./docs/static/img/eliza_banner.jpg" alt="eliza banner" width="100%"/>
+<img src="./docs/static/img/tele_banner.png" alt="TELE Banner" width="100%"/>
 
 ## 기능
 
@@ -45,7 +45,7 @@ pnpm i
 pnpm start
 ```
 
-# 사용자 정의 Eliza
+# 사용자 정의 TELE
 
 ### 일반 행동을 추가한다
 

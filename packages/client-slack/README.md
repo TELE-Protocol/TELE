@@ -1,6 +1,6 @@
-# Eliza Slack Client
+# TELE Slack Client
 
-This package provides Slack integration for the Eliza AI agent.
+This package provides Slack integration for the TELE AI agent.
 
 ## Setup Guide
 
@@ -112,7 +112,7 @@ Before proceeding to install the app, make sure to verify the event subscription
 
 ### Step 5: Verify Installation
 
-1. Start your Eliza server
+1. Start your TELE server
 2. Check the logs for successful connection
 3. Test the bot:
     - In Slack, invite the bot to a channel: `/invite @eve`

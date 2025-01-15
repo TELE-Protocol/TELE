@@ -4,7 +4,7 @@ import { executeCreateToken } from "./actions/createToken";
 
 export const icpPlugin: Plugin = {
     name: "icp",
-    description: "Internet Computer Protocol Plugin for Eliza",
+    description: "Internet Computer Protocol Plugin for TELE",
     providers: [icpWalletProvider],
     actions: [executeCreateToken],
     evaluators: [],

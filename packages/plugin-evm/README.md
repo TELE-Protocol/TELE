@@ -245,7 +245,7 @@ This plugin integrates with and builds upon several key technologies:
 Special thanks to:
 
 - [Ethereum Developer community](https://ethereum.org/developers/)
-- The Eliza community for their contributions and feedback
+- The TELE community for their contributions and feedback
 
 For more information about EVM capabilities:
 
@@ -256,4 +256,4 @@ For more information about EVM capabilities:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

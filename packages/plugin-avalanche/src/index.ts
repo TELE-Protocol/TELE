@@ -22,7 +22,7 @@ export const PROVIDER_CONFIG = {
 
 export const avalanchePlugin: Plugin = {
     name: "avalanche",
-    description: "Avalanche Plugin for Eliza",
+    description: "Avalanche Plugin for TELE",
     actions: [transfer, yakSwap, yakStrategy, tokenMillCreate],
     evaluators: [],
     providers: [tokensProvider, strategiesProvider, walletProvider],

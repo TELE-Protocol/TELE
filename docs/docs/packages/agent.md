@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # 🤖 Agent Package
 
-The Agent Package (`@eliza/agent`) provides the high-level orchestration layer for Eliza, managing agent lifecycles, character loading, client initialization, and runtime coordination.
+The Agent Package (`@eliza/agent`) provides the high-level orchestration layer for TELE, managing agent lifecycles, character loading, client initialization, and runtime coordination.
 
 ## Architecture Overview
 
@@ -39,7 +39,7 @@ graph TD
 
 ## Key Responsibilities
 
-The Agent Package (`@elizaos/agent`) serves as the orchestration layer for Eliza, handling:
+The Agent Package (`@elizaos/agent`) serves as the orchestration layer for TELE, handling:
 
 - Character and plugin loading
 - Runtime initialization and management

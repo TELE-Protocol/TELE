@@ -1,6 +1,6 @@
-# [Eliza](https://github.com/elizaos/eliza) Chatbot Docker Setup Guide
+# [TELE](https://github.com/TELE-Protocol/TELE) Chatbot Docker Setup Guide
 
-This guide provides instructions for installing and running the Eliza chatbot using either Docker or direct installation on a server.
+This guide provides instructions for installing and running the TELE chatbot using either Docker or direct installation on a server.
 
 ## Prerequisites
 
@@ -84,7 +84,7 @@ This guide provides instructions for installing and running the Eliza chatbot us
     docker ps
     ```
 
-- Remove Eliza container:
+- Remove TELE container:
 
     ```bash
     docker rm /eliza

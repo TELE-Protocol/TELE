@@ -17,7 +17,7 @@ export const CONFIG = {
 
 export const spheronPlugin: Plugin = {
     name: "spheron",
-    description: "Spheron Protocol Plugin for Eliza",
+    description: "Spheron Protocol Plugin for TELE",
     actions: [escrow, deployment],
     evaluators: [],
     providers: [tokensProvider, deploymentProvider],

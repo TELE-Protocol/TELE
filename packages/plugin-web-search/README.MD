@@ -28,7 +28,7 @@ TAVILY_API_KEY=your_api_key    # Required: API key for search service
 
 ## Usage
 
-Import and register the plugin in your Eliza configuration:
+Import and register the plugin in your TELE configuration:
 
 ```typescript
 import { webSearchPlugin } from "@elizaos/plugin-web-search";
@@ -92,7 +92,7 @@ pnpm run dev
 
 ## Dependencies
 
-- `@elizaos/core`: Core Eliza functionality
+- `@elizaos/core`: Core TELE functionality
 - `js-tiktoken`: Token counting and management
 - `tsup`: Build tool
 - Other standard dependencies listed in package.json
@@ -212,7 +212,7 @@ This plugin integrates with and builds upon several key technologies:
 
 Special thanks to:
 
-- The Eliza community for their contributions and feedback
+- The TELE community for their contributions and feedback
 
 For more information about the search capabilities and tools:
 
@@ -222,4 +222,4 @@ For more information about the search capabilities and tools:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

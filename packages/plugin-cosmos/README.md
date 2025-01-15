@@ -6,7 +6,7 @@ This plugin provides actions and utilities for interacting with Cosmos-compatibl
 
 ## Development
 
-Prepare Eliza according to [README](../../README.md)
+Prepare TELE according to [README](../../README.md)
 Add variables required for `@elizaos/plugin-cosmos` :
 
 ```
@@ -16,7 +16,7 @@ COSMOS_AVAILABLE_CHAINS=chain1,chain2,chain3
 
 Ensure the appropriate environment variables are added for the plugin. If they are correctly configured, the project will run with `@elizaos/plugin-cosmos`
 
-Run Eliza
+Run TELE
 
 ```
 pnpm run dev

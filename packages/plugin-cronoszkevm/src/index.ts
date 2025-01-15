@@ -4,7 +4,7 @@ import { TransferAction } from "./actions";
 
 export const cronosZkEVMPlugin: Plugin = {
     name: "cronoszkevm",
-    description: "Cronos zkEVM plugin for Eliza",
+    description: "Cronos zkEVM plugin for TELE",
     actions: [TransferAction],
     evaluators: [],
     providers: [],

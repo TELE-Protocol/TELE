@@ -209,7 +209,7 @@ Special thanks to:
 - The better-sqlite3 team for their excellent database driver
 - The UUID.js maintainers for reliable identifier generation
 - The DOMPurify team for security-focused sanitization tools
-- The Eliza community for their contributions and feedback
+- The TELE community for their contributions and feedback
 
 For more information about database management and security:
 
@@ -219,4 +219,4 @@ For more information about database management and security:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

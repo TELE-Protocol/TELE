@@ -1,6 +1,6 @@
 # @elizaos/plugin-open-weather
 
-A plugin for Eliza that enables weather checking using the OpenWeather API.
+A plugin for TELE that enables weather checking using the OpenWeather API.
 
 ## Features
 
@@ -23,12 +23,12 @@ npm install @elizaos/plugin-open-weather
 OPEN_WEATHER_API_KEY=your_api_key
 ```
 
-3. Register the plugin in your Eliza configuration:
+3. Register the plugin in your TELE configuration:
 
 ```typescript
 import { openWeatherPlugin } from "@elizaos/plugin-open-weather";
 
-// In your Eliza configuration
+// In your TELE configuration
 plugins: [
     new openWeatherPlugin(),
     // ... other plugins

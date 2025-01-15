@@ -1,6 +1,6 @@
-# Eliza
+# TELE
 
-<img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
+<img src="./docs/static/img/tele_banner.png" alt="TELE Banner" width="100%" />
 
 ## 機能
 
@@ -43,7 +43,7 @@ pnpm i
 pnpm start
 ```
 
-# Elizaのカスタマイズ
+# TELEのカスタマイズ
 
 ### カスタムアクションの追加
 

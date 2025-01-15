@@ -4,7 +4,7 @@ import { z } from "zod";
 export const intifaceEnvSchema = z
     .object({
         INTIFACE_URL: z.string().default("ws://localhost:12345"),
-        INTIFACE_NAME: z.string().default("Eliza Intiface Client"),
+        INTIFACE_NAME: z.string().default("TELE Intiface Client"),
         DEVICE_NAME: z.string().default("Lovense Nora"),
     })
     .refine(

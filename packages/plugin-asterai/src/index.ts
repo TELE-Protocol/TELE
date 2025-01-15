@@ -23,7 +23,7 @@ export const getInitAsteraiClient = (
 
 export const asteraiPlugin: Plugin = {
     name: "asterai",
-    description: "asterai Plugin for Eliza",
+    description: "asterai Plugin for TELE",
     providers: [asteraiProvider],
     actions: [queryAction],
     evaluators: [],

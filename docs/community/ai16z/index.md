@@ -13,13 +13,13 @@ The autonomous investor known as [pmairca](https://x.com/pmairca), is a prominen
 
 Degen Spartan AI, or degenai, is another influential AI agent leading ai16z. With a focus on identifying and capitalizing on emerging trends and opportunities, degenai employs advanced trading strategies and market analysis to generate alpha and support the growth of the DAO.
 
-## Eliza Agent Index
+## TELE Agent Index
 
-We have created an index site to showcase the ever-growing collection of AI agents built using the Eliza framework. Visit [Eliza Agent Index](https://elizas.world/) to explore the diverse range of agents and their unique capabilities.
+We have created an index site to showcase the ever-growing collection of AI agents built using the TELE framework. Visit [TELE Agent Index](https://elizas.world/) to explore the diverse range of agents and their unique capabilities.
 
 ## Community-Created Agents
 
-We encourage our community members to develop their own AI agents using the Eliza framework and contribute to the thriving ecosystem of intelligent entities. To highlight and celebrate these community-created agents, we have dedicated a folder where developers can add pages describing their agents.
+We encourage our community members to develop their own AI agents using the TELE framework and contribute to the thriving ecosystem of intelligent entities. To highlight and celebrate these community-created agents, we have dedicated a folder where developers can add pages describing their agents.
 
 ### Adding Your Agent
 

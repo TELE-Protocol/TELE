@@ -1,6 +1,6 @@
 # @elizaos/plugin-intiface
 
-Intiface/Buttplug.io integration plugin for Eliza OS that enables control of intimate hardware devices.
+Intiface/Buttplug.io integration plugin for TELE OS that enables control of intimate hardware devices.
 
 ## Features
 
@@ -25,7 +25,7 @@ The plugin can be configured through environment variables or runtime settings:
 
 ```env
 INTIFACE_URL=ws://localhost:12345
-INTIFACE_NAME=Eliza Intiface Client
+INTIFACE_NAME=TELE Intiface Client
 DEVICE_NAME=Lovense Nora
 ```
 
@@ -161,7 +161,7 @@ Special thanks to:
 
 - The Buttplug.io team for developing the Buttplug.io protocol
 - The Intiface Engine team for developing the Intiface Engine
-- The Eliza community for their contributions and feedback.
+- The TELE community for their contributions and feedback.
 
 For more information about Buttplug.io and Intiface Engine:
 
@@ -170,7 +170,7 @@ For more information about Buttplug.io and Intiface Engine:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.
 
 Intiface is a Registered Trademark of Nonpolynomial Labs, LLC
 

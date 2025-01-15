@@ -1,4 +1,4 @@
-# Eliza - framework de simulação Multi-agentes
+# TELE - framework de simulação Multi-agentes
 
 # https://github.com/elizaOS/eliza
 
@@ -10,7 +10,7 @@
 
 # dev branch
 
-<img src="static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
+<img src="static/img/tele_banner.png" alt="TELE Banner" width="100%" />
 
 _Como visto dando funcionamento em [@DegenSpartanAI](https://x.com/degenspartanai) e [@MarcAIndreessen](https://x.com/pmairca)_
 
@@ -19,7 +19,7 @@ _Como visto dando funcionamento em [@DegenSpartanAI](https://x.com/degenspartana
 - Conectores completos para Discord e Twitter, com suporte para canais de voz no Discord
 - Memória RAG completa para conversas e documentos
 - Pode ler links e PDFs, transcrever áudios e vídeos, resumir conversas e muito mais
-- Altamente extensível - crie suas próprias ações e clientes para ampliar as capacidades do Eliza
+- Altamente extensível - crie suas próprias ações e clientes para ampliar as capacidades do TELE
 - Suporte para modelos de código aberto e locais (configuração padrão com Nous Hermes Llama 3.1B)
 - Suporte ao OpenAI para inferência em nuvem em dispositivos com configurações leves
 - Modo "Perguntar ao Claude" para chamadas a Claude em consultas mais complexas
@@ -49,7 +49,7 @@ pnpm i
 pnpm start
 ```
 
-# Personalizando Eliza
+# Personalizando TELE
 
 ### Adicionando ações personalizadas
 
@@ -144,7 +144,7 @@ Certifique-se de que você instalou o CUDA Toolkit, incluindo o cuDNN e cuBLAS.
 ### Rodando localmente
 
 Add XAI_MODEL e defina-o para uma das opções mencionadas em [Run with
-Llama](#run-with-llama) - você pode deixar X_SERVER_URL e XAI_API_KEY em branco, 
+Llama](#run-with-llama) - você pode deixar X_SERVER_URL e XAI_API_KEY em branco,
 pois o modelo será baixado do Hugging Face e consultado localmente.
 
 # Clientes

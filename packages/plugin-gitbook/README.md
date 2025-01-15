@@ -1,6 +1,6 @@
 # @elizaos/plugin-gitbook
 
-A plugin for querying and retrieving information from GitBook documentation within the ElizaOS ecosystem.
+A plugin for querying and retrieving information from GitBook documentation within the TELE-Protocol ecosystem.
 
 ## Description
 
@@ -181,7 +181,7 @@ Special thanks to:
 - The GitBook team for their documentation platform
 - The GitBook Developer Relations team
 - The Axios maintainers for reliable HTTP requests
-- The Eliza community for their contributions and feedback
+- The TELE community for their contributions and feedback
 
 For more information about GitBook capabilities:
 
@@ -192,4 +192,4 @@ For more information about GitBook capabilities:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

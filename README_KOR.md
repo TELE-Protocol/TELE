@@ -1,19 +1,19 @@
-# Eliza 🤖
+# TELE 🤖
 
 <div align="center">
-  <img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
+  <img src="./docs/static/img/tele_banner.png" alt="TELE Banner" width="100%" />
 </div>
 
 <div align="center">
 
-📖 [문서](https://elizaos.github.io/eliza/) | 🎯 [예시](https://github.com/thejoven/awesome-eliza)
+📖 [문서](https://teleprotocol.io/agent/)
 
 </div>
 
 ## 🚩 구조
 
 <div align="center">
-  <img src="./docs/static/img/eliza_diagram.jpg" alt="Eliza Diagram" width="100%" />
+  <img src="./docs/static/img/eliza_diagram.jpg" alt="TELE Diagram" width="100%" />
 </div>
 
 ## ✨ 기능
@@ -60,40 +60,20 @@
 
 > **Windows 사용자 참고:** [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install-manual) 필요.
 
-### Starter 사용 (권장)
-
-```bash
-git clone https://github.com/elizaos/eliza-starter.git
-cd eliza-starter
-cp .env.example .env
-pnpm i && pnpm build && pnpm start
-```
-
-에이전트가 실행되면, 마지막에 "pnpm start:client" 명령을 실행하라는 메시지를 볼 수 있습니다.
-
-다른 터미널을 열고 같은 디렉터리로 이동한 다음 아래 명령어를 실행하세요. 
-
-그리고 제공된 URL을 따라 에이전트와 대화하세요.
-```bash
-pnpm start:client
-```
-
-[문서](https://elizaos.github.io/eliza/)를 참고하여 Eliza를 커스마이징 방법을 확인하세요.
-
 ### 수동으로 실행 (사용법을 알고 있는 경우에만 권장)
 
 ```bash
 # 저장소 복사
-git clone https://github.com/elizaos/eliza.git
+git clone https://github.com/TELE-Protocol/TELE.git
 
 # 최신 릴리스로 체크아웃
 # 프로젝트가 빠르게 수정되므로 최신 릴리스를 체크아웃하는 것을 권장합니다.
 git checkout $(git describe --tags --abbrev=0)
 ```
 
-### Gitpod로 Eliza 시작
+### Gitpod로 TELE 시작
 
-[![Gitpod로 열기](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elizaos/eliza/tree/main)
+[![Gitpod로 열기](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/TELE-Protocol/TELE/tree/main)
 
 ### .env 파일 편집
 
@@ -105,7 +85,7 @@ cp .env.example .env
 
 참고: .env는 선택 사항입니다. 여러 개의 에이전트를 실행하려는 경우, 캐릭터 JSON 파일을 통해 비밀 변수를 전달할 수 있습니다.
 
-### Eliza 자동 시작
+### TELE 자동 시작
 
 아래 명령은 프로젝트를 설정하고 기본 캐릭터와 함께 봇을 시작합니다.
 
@@ -123,7 +103,7 @@ sh scripts/start.sh
 3. X (Twitter) 연결:
     - 캐릭터 파일에서 `"clients": []`를 `"clients": ["twitter"]`로 변경합니다.
 
-### Eliza 수동 시작
+### TELE 수동 시작
 
 ```bash
 pnpm i
@@ -144,16 +124,14 @@ pnpm install --include=optional sharp
 
 ### 커뮤니티 & 문의
 
-- [Github Issues](https://github.com/elizaos/eliza/issues). 용도: Eliza 사용 중 발견된 버그 리포트, 기능 제안.
+- [Github Issues](https://github.com/TELE-Protocol/TELE/issues). 용도: TELE 사용 중 발견된 버그 리포트, 기능 제안.
 - [Discord](https://discord.gg/ai16z). 용도: 애플리케이션 공유 및 커뮤니티 활동.
 - [Developer Discord](https://discord.gg/3f67SH4rXT). 용도: 도움요청 및 플러그인 개발
 
 ## 기여자
 
-<a href="https://github.com/elizaos/eliza/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=elizaos/eliza" />
-</a>
+
 
 ## 스타 기록
 
-[![Star History Chart](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)
+

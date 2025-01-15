@@ -3,18 +3,18 @@
 # אלייזה 🤖
 
 <div align="center">
-  <img src="./docs/static/img/eliza_banner.jpg" alt="אלייזה באנר" width="100%" />
+  <img src="./docs/static/img/tele_banner.png" alt="אלייזה באנר" width="100%" />
 </div>
 
 <div align="center">
 
-📖 [תיעוד](https://elizaos.github.io/eliza/) | 🎯 [דוגמאות](https://github.com/thejoven/awesome-eliza)
+📖 [תיעוד](https://teleprotocol.io/agent/)
 
 </div>
 
 <div align="center">
 
-[中文说明](https://github.com/elizaos/Elisa/blob/main/README_CN.md) | [日本語の説明](https://github.com/elizaos/Elisa/blob/main/README_JA.md) | [한국어 설명](https://github.com/elizaos/Elisa/blob/main/README_KOR.md) | [Français](https://github.com/elizaos/Elisa/blob/main/README_FR.md) | [Português](https://github.com/elizaos/Elisa/blob/main/README_PTBR.md) | [Türkçe](TR.md) | [Русский](https://github.com/elizaos/Elisa/blob/main/README_RU.md) | [Español](https://github.com/elizaos/Elisa/blob/main/README_ES.md) | [Italiano](https://github.com/elizaos/Elisa/blob/main/README_IT.md) | [ไทย](https://github.com/elizaos/Elisa/blob/main/README_TH.md) | [Deutsch](https://github.com/elizaos/Elisa/blob/main/README_DE.md) | [עִברִית](https://github.com/elizaos/Elisa/blob/main/README_HE.md)
+[中文说明](https://github.com/TELE-Protocol/TELE/blob/main/README_CN.md) | [日本語の説明](https://github.com/TELE-Protocol/TELE/blob/main/README_JA.md) | [한국어 설명](https://github.com/TELE-Protocol/TELE/blob/main/README_KOR.md) | [Français](https://github.com/TELE-Protocol/TELE/blob/main/README_FR.md) | [Português](https://github.com/TELE-Protocol/TELE/blob/main/README_PTBR.md) | [Türkçe](TR.md) | [Русский](https://github.com/TELE-Protocol/TELE/blob/main/README_RU.md) | [Español](https://github.com/TELE-Protocol/TELE/blob/main/README_ES.md) | [Italiano](https://github.com/TELE-Protocol/TELE/blob/main/README_IT.md) | [ไทย](https://github.com/TELE-Protocol/TELE/blob/main/README_TH.md) | [Deutsch](https://github.com/TELE-Protocol/TELE/blob/main/README_DE.md) | [עִברִית](https://github.com/TELE-Protocol/TELE/blob/main/README_HE.md)
 
 </div>
 
@@ -68,29 +68,13 @@
 
 </div>
 
-### שימוש ב-Starter (מומלץ)
-
-<div align="right" dir="ltr">
-
-```
-git clone https://github.com/elizaos/eliza-starter.git
-
-cp .env.example .env
-
-pnpm i && pnpm start
-```
-
-</div>
-
-לאחר מכן קרא את [התיעוד](https://elizaos.github.io/eliza/) כדי ללמוד כיצד להתאים את אלייזה.
-
 ### התחלה ידנית של אלייזה (מומלץ רק למי שיודע מה הוא עושה)
 
 <div align="right">
 
 ```
 # שכפול המאגר
-git clone https://github.com/elizaos/eliza.git
+git clone https://github.com/TELE-Protocol/TELE.git
 
 # מעבר לגרסה האחרונה
 git checkout $(git describe --tags --abbrev=0)
@@ -102,7 +86,7 @@ git checkout $(git describe --tags --abbrev=0)
 
 <div align="right">
 
-[![פתח ב-Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elizaos/eliza/tree/main)
+[![פתח ב-Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/TELE-Protocol/TELE/tree/main)
 
 </div>
 
@@ -171,7 +155,7 @@ pnpm install --include=optional sharp
 
 <div align="right">
 
-[GitHub Issues](https://github.com/elizaos/eliza/issues) מתאים ביותר עבור: באגים ופרופוזיציות לתכונות -
+[GitHub Issues](https://github.com/TELE-Protocol/TELE/issues) מתאים ביותר עבור: באגים ופרופוזיציות לתכונות -
 
 [Discord](https://discord.gg/ai16z) מתאים ביותר עבור: שיתוף היישומים שלך והשתתפות בקהילה -
 
@@ -181,9 +165,7 @@ pnpm install --include=optional sharp
 
 <!-- <div align="right"> -->
 
-<a href="https://github.com/elizaos/eliza/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=elizaos/eliza" />
-</a>
+
 
 <!-- </div> -->
 

@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Overview
 
-The Core Package (`@elizaos/core`) provides the fundamental building blocks of Eliza's architecture, handling essential functionalities like:
+The Core Package (`@elizaos/core`) provides the fundamental building blocks of TELE's architecture, handling essential functionalities like:
 
 - Memory Management & Semantic Search
 - Message Processing & Generation
@@ -25,7 +25,7 @@ pnpm add @elizaos/core
 
 ### AgentRuntime
 
-The AgentRuntime class serves as the central nervous system of Eliza, orchestrating all major components:
+The AgentRuntime class serves as the central nervous system of TELE, orchestrating all major components:
 
 ```typescript
 import { AgentRuntime } from "@elizaos/core";

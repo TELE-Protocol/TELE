@@ -5,7 +5,7 @@ description: "Building a User Data Extraction Agent"
 
 # Part 3: Building a User Data Extraction Agent
 
-In this third session of the AI Agent Dev School series, we dive into a practical application of providers and evaluators in the Eliza framework - building an agent that can extract key user data (name, location, job) through natural conversation.
+In this third session of the AI Agent Dev School series, we dive into a practical application of providers and evaluators in the TELE framework - building an agent that can extract key user data (name, location, job) through natural conversation.
 
 We explore:
 
@@ -23,7 +23,7 @@ We explore:
 - [**00:16:15** - Deep Dive into Evaluators](https://www.youtube.com/watch?v=Y1DiqSVy4aU&t=975)
 - [**00:27:45** - Code walkthrough of the "Fact Evaluator"](https://www.youtube.com/watch?v=Y1DiqSVy4aU&t=1675)
 - [**00:36:07** - Building a User Data Evaluator](https://www.youtube.com/watch?v=Y1DiqSVy4aU&t=2167)
-- [**00:51:50** - Exploring Eliza's Cache Manager](https://www.youtube.com/watch?v=Y1DiqSVy4aU&t=3110)
+- [**00:51:50** - Exploring TELE's Cache Manager](https://www.youtube.com/watch?v=Y1DiqSVy4aU&t=3110)
 - [**01:06:01** - Using Claude AI for Code Generation](https://www.youtube.com/watch?v=Y1DiqSVy4aU&t=3961)
 - [**01:21:18** - Testing the User Data Flow](https://www.youtube.com/watch?v=Y1DiqSVy4aU&t=4878)
 - [**01:30:27** - Adding a Dynamic Provider Based on Completion](https://www.youtube.com/watch?v=Y1DiqSVy4aU&t=5427)
@@ -43,7 +43,7 @@ This loop allows agents to dynamically gather required data through natural conv
 
 # Deep Dive into Evaluators
 
-Evaluators in Eliza run after each agent action, allowing the agent to reflect on what happened and potentially trigger additional actions. Some key aspects of evaluators:
+Evaluators in TELE run after each agent action, allowing the agent to reflect on what happened and potentially trigger additional actions. Some key aspects of evaluators:
 
 - Defined by `validate` and `handler` functions
 - `validate` determines if the evaluator should run based on the current context
@@ -58,7 +58,7 @@ The hands-on portion of the session focuses on building a user data extraction f
 
 1. Creating a basic `UserDataEvaluator` and `UserDataProvider`
 2. Registering them directly in the agent (without a plugin)
-3. Leveraging Eliza's `CacheManager` for efficient key-value storage
+3. Leveraging TELE's `CacheManager` for efficient key-value storage
 4. Iteratively developing the extraction logic with the help of Claude AI
 5. Testing the flow by interacting with the agent and inspecting logs/context
 6. Adding a dynamic provider that triggers only after data collection is complete
@@ -79,4 +79,4 @@ This showcases the potential for AI pair programming and how future developers m
 - AI assistants can significantly accelerate development by generating and refining code
 - The potential for provider-evaluator based applications is immense - form-filling, user profiling, dynamic content unlocking, and more
 
-With these tools in hand, developers have a solid foundation for building highly interactive, personalized agentic applications. The next frontier is to explore advanced use cases and further push the boundaries of what's possible with Eliza.
+With these tools in hand, developers have a solid foundation for building highly interactive, personalized agentic applications. The next frontier is to explore advanced use cases and further push the boundaries of what's possible with TELE.

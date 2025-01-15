@@ -1,12 +1,12 @@
-# Eliza 🤖
+# TELE 🤖
 
 <div align="center">
-  <img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
+  <img src="./docs/static/img/tele_banner.png" alt="TELE Banner" width="100%" />
 </div>
 
 <div align="center">
 
-📖 [Tài liệu](https://elizaos.github.io/eliza/) | 🎯 [Ví dụ](https://github.com/thejoven/awesome-eliza)
+📖 [Tài liệu](https://teleprotocol.io/agent/)
 
 </div>
 
@@ -39,32 +39,20 @@
 
 > **Chú ý cho người dùng Windows:** [WSL 2](https://learn.microsoft.com/de-de/windows/wsl/install-manual) là bắt buộc.
 
-### Sử dụng phiên bản Starters (Khuyến nghị)
-
-```bash
-git clone https://github.com/elizaos/eliza-starter.git
-
-cp .env.example .env
-
-pnpm i && pnpm start
-```
-
-Sau đó hãy đọc [Tài liệu](https://elizaos.github.io/eliza/), để học cách để tùy chỉnh Eliza của bạn.
-
-### Khởi động Eliza theo cách thủ công (Chỉ khuyến khích nếu bạn biết mình đang làm gì)
+### Khởi động TELE theo cách thủ công (Chỉ khuyến khích nếu bạn biết mình đang làm gì)
 
 ```bash
 # Sao chép repository
-git clone https://github.com/elizaos/eliza.git
+git clone https://github.com/TELE-Protocol/TELE.git
 
 # Kiểm tra bản phát hành mới nhất
 # Dự án này cải tiến rất nhanh, vì vậy chúng tôi khuyên bạn nên kiểm tra bản phát hành mới nhất
 git checkout $(git describe --tags --abbrev=0)
 ```
 
-### Bắt đầu Eliza với Gitpod
+### Bắt đầu TELE với Gitpod
 
-[![Mở Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elizaos/eliza/tree/main)
+[![Mở Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/TELE-Protocol/TELE/tree/main)
 
 ### Chỉnh sửa tệp .env
 
@@ -76,7 +64,7 @@ cp .env.example .env
 
 Lưu ý: .env là tùy chọn. Nếu bạn đang có kế hoạch chạy nhiều tác nhân riêng biệt, bạn có thể truyền secret qua định dạng JSON.
 
-### Tự động khởi động Eliza
+### Tự động khởi động TELE
 
 Điều này sẽ chạy mọi thứ để thiết lập dự án và khởi động bot với tính cách (character) mặc định.
 
@@ -94,7 +82,7 @@ sh scripts/start.sh
 3. Kết nối với X (Twitter)
     - Thay đổi `"clients": []` thành `"clients": ["twitter"]` ở trong tập tính cách (character) để kết nối với X.
 
-### Bắt đầu Eliza theo cách thủ công
+### Bắt đầu TELE theo cách thủ công
 
 ```bash
 pnpm i
@@ -115,15 +103,13 @@ pnpm install --include=optional sharp
 
 ### Cộng đồng & Liên hệ
 
-- [GitHub Issues](https://github.com/elizaos/eliza/issues). Phù hợp nhất cho: các lỗi bạn gặp phải khi sử dụng Eliza và các đề xuất tính năng.
+- [GitHub Issues](https://github.com/TELE-Protocol/TELE/issues). Phù hợp nhất cho: các lỗi bạn gặp phải khi sử dụng TELE và các đề xuất tính năng.
 - [Discord](https://discord.gg/ai16z). Phù hợp nhất cho: chia sẻ ứng dụng của bạn và giao lưu với cộng đồng.
 
 ## Người đóng góp
 
-<a href="https://github.com/elizaos/eliza/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=elizaos/eliza" />
-</a>
+
 
 ## Lịch sử Star cho repo
 
-[![Star History Chart](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)
+

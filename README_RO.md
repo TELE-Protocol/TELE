@@ -1,6 +1,6 @@
-# Eliza
+# TELE
 
-<img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
+<img src="./docs/static/img/tele_banner.png" alt="TELE Banner" width="100%" />
 
 ## Funcționalități
 
@@ -44,7 +44,7 @@ pnpm i
 pnpm start
 ```
 
-# Personalizarea Eliza
+# Personalizarea TELE
 
 ### Adăugarea de acțiuni personalizate
 

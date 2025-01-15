@@ -2,11 +2,11 @@
 
 ## Overview
 
-Database Adapters provide the persistence layer for Eliza, enabling storage and retrieval of memories, relationships, goals, and other core data. The system supports multiple database backends through a unified interface.
+Database Adapters provide the persistence layer for TELE, enabling storage and retrieval of memories, relationships, goals, and other core data. The system supports multiple database backends through a unified interface.
 
 ## Available Adapters
 
-Eliza includes the following database adapters:
+TELE includes the following database adapters:
 
 - **PostgreSQL Adapter** (`@eliza/adapter-postgres`) - Production-ready adapter for PostgreSQL databases
 - **SQLite Adapter** (`@eliza/adapter-sqlite`) - Lightweight adapter for SQLite, perfect for development
@@ -69,7 +69,7 @@ const db = new SupabaseDatabaseAdapter(
 
 ### Memory Storage
 
-Memories are the fundamental unit of storage in Eliza. They represent messages, documents, and other content with optional embeddings for semantic search.
+Memories are the fundamental unit of storage in TELE. They represent messages, documents, and other content with optional embeddings for semantic search.
 
 ```typescript
 interface Memory {

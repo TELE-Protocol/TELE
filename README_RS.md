@@ -1,6 +1,6 @@
-# Eliza
+# TELE
 
-<img src="./docs/static/img/eliza_banner.jpg" alt="Baner Eliza" width="100%" />
+<img src="./docs/static/img/tele_banner.png" alt="Baner TELE" width="100%" />
 
 ## Funkcionalnosti
 

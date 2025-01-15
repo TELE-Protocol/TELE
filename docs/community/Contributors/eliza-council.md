@@ -1,12 +1,12 @@
 ---
-title: Eliza Council
+title: TELE Council
 ---
 
-# Eliza Council
+# TELE Council
 
 ## Meeting 12-16-24
 
-Here are the key notes from the Eliza Framework Council meeting:
+Here are the key notes from the TELE Framework Council meeting:
 
 Current Status & Priorities:
 

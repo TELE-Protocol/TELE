@@ -20,7 +20,7 @@ export const PROVIDER_CONFIG = {
 
 export const starknetPlugin: Plugin = {
     name: "starknet",
-    description: "Starknet Plugin for Eliza",
+    description: "Starknet Plugin for TELE",
     actions: [transfer, executeSwap, deployToken, transferSubdomain],
     evaluators: [],
     providers: [],

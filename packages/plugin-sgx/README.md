@@ -1,6 +1,6 @@
-# SGX Plugin for Eliza
+# SGX Plugin for TELE
 
-The SGX Plugin for Eliza enhances the platform by providing Intel SGX attestation capabilities.
+The SGX Plugin for TELE enhances the platform by providing Intel SGX attestation capabilities.
 
 Intel SGX is part of the Intel confidential computing technology portfolio that allows businesses to take advantage of the cloud while staying in control of their data. Intel SGX protects data actively being used in the processor and memory by creating a trusted execution environment (TEE) called an enclave.
 
@@ -39,9 +39,9 @@ SGX=1 make start
 SGX=1 make start -- --character "character/trump.character.json"
 ```
 
-After starting Eliza, the provider `sgxAttestationProvider` will be registered into Eliza through plugin-sgx. The environment variable `SGX` is required to be set to `1` to enable plugin-sgx. And the `SGX` is always set to `1` in the SGX environment through the `eliza.manifest.template` file.
+After starting TELE, the provider `sgxAttestationProvider` will be registered into TELE through plugin-sgx. The environment variable `SGX` is required to be set to `1` to enable plugin-sgx. And the `SGX` is always set to `1` in the SGX environment through the `eliza.manifest.template` file.
 
-When Eliza starts, the `sgxAttestationProvider` will generate SGX attestation in each request. And you can use the `SgxAttestationProvider` to generate SGX remote attestations for your own plugins / clients.
+When TELE starts, the `sgxAttestationProvider` will generate SGX attestation in each request. And you can use the `SgxAttestationProvider` to generate SGX remote attestations for your own plugins / clients.
 
 ### Example
 
@@ -64,7 +64,7 @@ sudo docker run -it --name eliza_sgx \
     gramineproject/gramine:stable-jammy
 ```
 
-After entering the docker, you can use the following command to prepare the Eliza environment:
+After entering the docker, you can use the following command to prepare the TELE environment:
 
 ```bash
 # Generate the private key for signing the SGX enclave
@@ -74,7 +74,7 @@ cd /root/eliza/
 
 # Install nodejs and pnpm
 # Node.js will be installed at `/usr/bin/node`.
-# Gramine will utilize this path as the default Node.js location to run Eliza.
+# Gramine will utilize this path as the default Node.js location to run TELE.
 # If you prefer to use nvm for installing Node.js, please ensure to specify the Node.js path in the Makefile, as the installation path for nvm is not `/usr/bin/node`.
 apt update
 apt install -y build-essential
@@ -83,7 +83,7 @@ curl -fsSL https://deb.nodesource.com/setup_23.x | bash -
 apt install -y nodejs=23.3.0-1nodesource1
 npm install -g pnpm
 
-# Build Eliza
+# Build TELE
 pnpm i
 pnpm build
 
@@ -91,6 +91,6 @@ pnpm build
 cp .env.example .env
 # Edit the .env file
 
-# Start Eliza in SGX
+# Start TELE in SGX
 SGX=1 make start -- --character "character/c3po.character.json"
 ```

@@ -3,7 +3,7 @@ import {
     stringToUuid,
     elizaLogger,
     Character,
-    Client as ElizaClient,
+    Client as TELEClient,
     IAgentRuntime,
 } from "@elizaos/core";
 import {
@@ -400,7 +400,7 @@ export function startDiscord(runtime: IAgentRuntime) {
     return new DiscordClient(runtime);
 }
 
-export const DiscordClientInterface: ElizaClient = {
+export const DiscordClientInterface: TELEClient = {
     start: async (runtime: IAgentRuntime) => new DiscordClient(runtime),
     stop: async (runtime: IAgentRuntime) => {
         try {

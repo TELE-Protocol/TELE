@@ -11,7 +11,7 @@ Given the early stage of the project, we currently only support the latest versi
 
 ## Reporting a Vulnerability
 
-We take the security of Eliza seriously. If you believe you have found a security vulnerability, please report it to us following these steps:
+We take the security of TELE seriously. If you believe you have found a security vulnerability, please report it to us following these steps:
 
 ### Private Reporting Process
 
@@ -122,4 +122,4 @@ As an MIT licensed project, users should understand:
 
 - Security Issues: security@eliza.builders
 - General Questions: Join our [Discord](https://discord.gg/ai16z)
-- Updates: Follow our [security advisory page](https://github.com/elizaos/eliza/security/advisories)
+- Updates: Follow our [security advisory page](https://github.com/TELE-Protocol/TELE/security/advisories)

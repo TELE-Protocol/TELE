@@ -6,7 +6,7 @@ export { WalletProvider, transferToken as TransferSuiToken };
 
 export const suiPlugin: Plugin = {
     name: "sui",
-    description: "Sui Plugin for Eliza",
+    description: "Sui Plugin for TELE",
     actions: [transferToken],
     evaluators: [],
     providers: [walletProvider],

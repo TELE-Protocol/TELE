@@ -96,7 +96,7 @@ describe("WalletProvider", () => {
                 .toFixed(2);
 
             expect(result).toEqual(
-                `Eliza\nWallet Address: ${walletProvider.address}\n` +
+                `TELE\nWallet Address: ${walletProvider.address}\n` +
                     `Total Value: $${totalUsd} (${aptAmount} APT)\n`
             );
         });

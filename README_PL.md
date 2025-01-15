@@ -1,12 +1,12 @@
-# Eliza 🤖
+# TELE 🤖
 
 <div align="center">
-  <img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
+  <img src="./docs/static/img/tele_banner.png" alt="TELE Banner" width="100%" />
 </div>
 
 <div align="center">
 
-📖 [Dokumentacja](https://elizaos.github.io/eliza/) | 🎯 [Przykłady](https://github.com/thejoven/awesome-eliza)
+📖 [Dokumentacja](https://teleprotocol.io/agent/)
 
 </div>
 
@@ -43,29 +43,11 @@
 
 > **Notka dla użytkowników Windowsa:** [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install-manual) jest wymagane!.
 
-### Użycie startera (Rekomendowane)
-
-```bash
-git clone https://github.com/elizaos/eliza-starter.git
-cd eliza-starter
-cp .env.example .env
-pnpm i && pnpm build && pnpm start
-```
-
-Gdy agent się uruchomi, powinien pojawić się komunikat aby uruchomić komendę "pnpm start:client".
-Wtedy trzeba odpalić drugi terminal, przejść do tego samego folderu, w którym mamy sklonowany kod z Githuba i odpalić tą komendę, aby być w stanie rozpocząć konwersację z naszym botem.
-
-```bash
-pnpm start:client
-```
-
-Następnie zapoznaj się z [Dokumentacją](https://elizaos.github.io/eliza/). Tam jest szcegółowo opisane, jak modyfikować i dopasować Elizę do własnych potrzeb.
-
 ### Manualny start (Przeznaczone dla osób, które wiedzą, co robią)
 
 ```bash
 # Sklonuj repozytorium
-git clone https://github.com/elizaos/eliza.git
+git clone https://github.com/TELE-Protocol/TELE.git
 
 # Sprawdź, czy na pewno masz najnowszą wersję
 # Projekt rozrasta się bardzo szybko, dlatego zalecane jest aby często sprawdzać wersję
@@ -74,7 +56,7 @@ git checkout $(git describe --tags --abbrev=0)
 
 ### Start przy użyciu Gitpod'a
 
-[![Otwórz w Gitpodzie](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elizaos/eliza/tree/main)
+[![Otwórz w Gitpodzie](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/TELE-Protocol/TELE/tree/main)
 
 ### Edytuj plik .env
 
@@ -125,14 +107,12 @@ pnpm install --include=optional sharp
 
 ### Społeczność i kontakt
 
-- [GitHub Issues](https://github.com/elizaos/eliza/issues). Korzystaj w przypadku gdy napotkasz na jakieś bugi podczas uzywania Elizy, lub masz jakieś propozycje rozwoju.
+- [GitHub Issues](https://github.com/TELE-Protocol/TELE/issues). Korzystaj w przypadku gdy napotkasz na jakieś bugi podczas uzywania Elizy, lub masz jakieś propozycje rozwoju.
 - [Discord](https://discord.gg/ai16z). Używaj, gdy chcesz się pochwalić swoją aplikacją lub po prostu pogadać z kimś.
 
 ## Osoby zaangażowane w rozwój:
 
-<a href="https://github.com/elizaos/eliza/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=elizaos/eliza" />
-</a>
+
 
 ## Historia gwiazdek
 

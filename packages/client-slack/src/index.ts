@@ -1,4 +1,4 @@
-import { Character, Client as ElizaClient, IAgentRuntime } from "@elizaos/core";
+import { Character, Client as TELEClient, IAgentRuntime } from "@elizaos/core";
 import { elizaLogger } from "@elizaos/core";
 import { WebClient } from "@slack/web-api";
 import express, { Request } from "express";
@@ -331,7 +331,7 @@ export class SlackClient extends EventEmitter {
     }
 }
 
-export const SlackClientInterface: ElizaClient = {
+export const SlackClientInterface: TELEClient = {
     start: async (runtime: IAgentRuntime) => {
         const client = new SlackClient(runtime);
         await client.start();

@@ -6,7 +6,7 @@ import { spotTrade } from "./actions/spotTrade";
 // Export the plugin configuration
 export const binancePlugin: Plugin = {
     name: "binance",
-    description: "Binance Plugin for Eliza",
+    description: "Binance Plugin for TELE",
     actions: [spotTrade, priceCheck, spotBalance],
     evaluators: [],
     providers: [],

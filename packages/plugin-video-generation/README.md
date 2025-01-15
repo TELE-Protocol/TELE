@@ -28,7 +28,7 @@ LUMA_API_KEY=your_luma_api_key    # Required: API key for Luma AI
 
 ## Usage
 
-Import and register the plugin in your Eliza configuration:
+Import and register the plugin in your TELE configuration:
 
 ```typescript
 import { videoGenerationPlugin } from "@elizaos/plugin-video-generation";
@@ -94,7 +94,7 @@ npm run dev
 
 ## Dependencies
 
-- `@elizaos/core`: Core Eliza functionality
+- `@elizaos/core`: Core TELE functionality
 - `tsup`: Build tool
 - Other standard dependencies listed in package.json
 
@@ -280,7 +280,7 @@ Special thanks to:
 
 - The Luma Labs team for providing the video generation API
 - The Luma AI research team for their groundbreaking work in AI video generation
-- The Eliza community for their contributions and feedback
+- The TELE community for their contributions and feedback
 
 For more information about video generation capabilities and tools:
 
@@ -290,4 +290,4 @@ For more information about video generation capabilities and tools:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

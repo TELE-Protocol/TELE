@@ -1,10 +1,10 @@
 # @elizaos/plugin-solana
 
-Core Solana blockchain plugin for Eliza OS that provides essential services and actions for token operations, trading, and DeFi integrations.
+Core Solana blockchain plugin for TELE OS that provides essential services and actions for token operations, trading, and DeFi integrations.
 
 ## Overview
 
-The Solana plugin serves as a foundational component of Eliza OS, bridging Solana blockchain capabilities with the Eliza ecosystem. It provides crucial services for token operations, trading, portfolio management, and DeFi integrations, enabling both automated and user-directed interactions with the Solana blockchain.
+The Solana plugin serves as a foundational component of TELE OS, bridging Solana blockchain capabilities with the TELE ecosystem. It provides crucial services for token operations, trading, portfolio management, and DeFi integrations, enabling both automated and user-directed interactions with the Solana blockchain.
 
 ## Features
 
@@ -348,7 +348,7 @@ This plugin integrates with and builds upon several key technologies:
 Special thanks to:
 
 - The Solana ecosystem and all the open-source contributors who make these integrations possible.
-- The Eliza community for their contributions and feedback.
+- The TELE community for their contributions and feedback.
 
 For more information about Solana blockchain capabilities:
 
@@ -359,4 +359,4 @@ For more information about Solana blockchain capabilities:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

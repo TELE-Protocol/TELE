@@ -5,7 +5,7 @@ import { confiPump } from "./actions/confiPump";
 
 export const confluxPlugin: Plugin = {
     name: "conflux",
-    description: "Conflux Plugin for Eliza",
+    description: "Conflux Plugin for TELE",
     actions: [transfer, bridgeTransfer, confiPump],
     providers: [],
 };

@@ -6,7 +6,7 @@ export { WalletProvider, transferToken as TransferAptosToken };
 
 export const aptosPlugin: Plugin = {
     name: "aptos",
-    description: "Aptos Plugin for Eliza",
+    description: "Aptos Plugin for TELE",
     actions: [transferToken],
     evaluators: [],
     providers: [walletProvider],

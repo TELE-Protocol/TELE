@@ -1,7 +1,7 @@
-# Eliza 🤖
+# TELE 🤖
 
 <div align="center">
-  <img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
+  <img src="./docs/static/img/tele_banner.png" alt="TELE Banner" width="100%" />
 </div>
 
 ## ✨ Caratteristiche
@@ -41,7 +41,7 @@ Copia .env.example in .env e inserisci i valori appropriati
 cp .env.example .env
 ```
 
-### Avvia Eliza Automaticamente
+### Avvia TELE Automaticamente
 
 Questo script eseguirà tutti i comandi necessari per configurare il progetto e avviare il bot con il personaggio predefinito.
 
@@ -57,7 +57,7 @@ sh scripts/start.sh
     - Usa `pnpm start --characters="percorso/del/tuo/personaggio.json"`
     - È possibile caricare più file di personaggi contemporaneamente
 
-### Avvia Eliza Manualmente
+### Avvia TELE Manualmente
 
 ```bash
 pnpm i
@@ -78,14 +78,12 @@ pnpm install --include=optional sharp
 
 ### Comunità e contatti
 
-- [GitHub Issues](https://github.com/elizaos/eliza/issues). Ideale per segnalare bug riscontrati durante l’utilizzo di Eliza e proporre nuove funzionalità.
+- [GitHub Issues](https://github.com/TELE-Protocol/TELE/issues). Ideale per segnalare bug riscontrati durante l’utilizzo di TELE e proporre nuove funzionalità.
 - [Discord](https://discord.gg/ai16z). Ideale per condividere le tue applicazioni e interagire con la comunità.
 
 ## Contributori
 
-<a href="https://github.com/elizaos/eliza/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=elizaos/eliza" />
-</a>
+
 
 ## Cronologia Stelle
 

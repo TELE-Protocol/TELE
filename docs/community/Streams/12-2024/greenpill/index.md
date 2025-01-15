@@ -2,7 +2,7 @@
 
 ## 12-11-2024 Meeting Notes
 
-ai16z Eliza Retro Funding - December 11
+ai16z TELE Retro Funding - December 11
 
 Explore potential collaboration between Gitcoin and ai16z for capital allocation and contributor incentivization.
 
@@ -34,7 +34,7 @@ Explore potential collaboration between Gitcoin and ai16z for capital allocation
 
 ### AI Agent Development
 
-- Proposal for Eliza plugin to observe Discord activity and recommend airdrops
+- Proposal for TELE plugin to observe Discord activity and recommend airdrops
 - Potential to connect GitHub and Discord, reducing friction between platforms
 - Interest in comparing AI-driven allocation to traditional mechanisms like quadratic funding
 
@@ -50,7 +50,7 @@ This episode features Shaw and jin from ai16z, a DAO focused on building AI agen
 
 ## Key Players
 
-- **Shaw**: Creator of the Eliza framework and founder of ai16z. Envisions AI freeing humans from routine labor.
+- **Shaw**: Creator of the TELE framework and founder of ai16z. Envisions AI freeing humans from routine labor.
 - **jin**: Community manager at ai16z, focuses on open-source sustainability and community tools.
 
 ### Notable Mentions
@@ -69,7 +69,7 @@ This episode features Shaw and jin from ai16z, a DAO focused on building AI agen
 
 ### Core Technologies
 
-1. **Eliza Framework**: Open-source platform for AI agent development
+1. **TELE Framework**: Open-source platform for AI agent development
 2. **Agent Pizza**: Demonstration app for AI-driven pizza ordering
 3. **Chat Summarizer**: Discord conversation analysis tool
 4. **Echo Chambers**: Inter-agent communication platform
@@ -178,7 +178,7 @@ This episode features Shaw and jin from ai16z, a DAO focused on building AI agen
 
 ### Past
 
-- Eliza framework creation
+- TELE framework creation
 - ai16z launch and growth
 - Agent Pizza deployment
 - Initial community tools development

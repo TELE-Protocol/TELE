@@ -1,6 +1,6 @@
 # Cookbook
 
-- Clone repo: https://github.com/elizaos/eliza
+- Clone repo: https://github.com/TELE-Protocol/TELE
 
 This command will get last month of contributions in a pretty JSON format
 

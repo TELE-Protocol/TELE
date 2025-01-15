@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # 📝 Character Files
 
-Character files are JSON-formatted configurations that define an AI character's personality, knowledge, and behavior patterns. This guide explains how to create effective character files for use with Eliza agents.
+Character files are JSON-formatted configurations that define an AI character's personality, knowledge, and behavior patterns. This guide explains how to create effective character files for use with TELE agents.
 
 ---
 

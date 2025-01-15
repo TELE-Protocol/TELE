@@ -202,7 +202,7 @@ The plugin includes validation for:
 
 ## Dependencies
 
-- `@elizaos/core`: Core Eliza functionality
+- `@elizaos/core`: Core TELE functionality
 - `web3`: Web3 library for blockchain interaction
 - `web3-plugin-zksync`: ZKSync Era integration
 - Other standard dependencies listed in package.json
@@ -221,7 +221,7 @@ This plugin integrates with and builds upon several key technologies:
 
 Special thanks to:
 
-- The Eliza community for their contributions and feedback
+- The TELE community for their contributions and feedback
 
 For more information about ZKSync Era and its capabilities, visit:
 
@@ -231,4 +231,4 @@ For more information about ZKSync Era and its capabilities, visit:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

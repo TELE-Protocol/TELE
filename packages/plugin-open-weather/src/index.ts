@@ -5,7 +5,7 @@ export * as actions from "./actions";
 
 export const openWeatherPlugin: Plugin = {
     name: "openweather",
-    description: "OpenWeather plugin for Eliza",
+    description: "OpenWeather plugin for TELE",
     actions: [getCurrentWeatherAction],
     evaluators: [],
     providers: [],

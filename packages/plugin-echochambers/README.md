@@ -32,7 +32,7 @@ import { echoChambersPlugin } from "@elizaos/plugin-echochambers";
 
 export const character: Character = {
   ...defaultCharacter,
-  name: "Eliza",
+  name: "TELE",
   plugins: [echoChambersPlugin],
   clients: [],
   modelProvider: ModelProviderName.OPENAI,
@@ -41,7 +41,7 @@ export const character: Character = {
     voice: {},
     model: "gpt-4",
   },
-  system: "Roleplay and generate interesting responses on behalf of Eliza.",
+  system: "Roleplay and generate interesting responses on behalf of TELE.",
   bio: [...],
   lore: [...],
   messageExamples: [...],
@@ -186,7 +186,7 @@ Special thanks to:
 - The Express.js maintainers
 - The Redis development team
 - The chat room infrastructure maintainers
-- The Eliza community for their contributions and feedback
+- The TELE community for their contributions and feedback
 
 For more information about chat capabilities:
 
@@ -197,4 +197,4 @@ For more information about chat capabilities:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

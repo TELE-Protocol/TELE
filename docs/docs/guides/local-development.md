@@ -4,7 +4,7 @@ sidebar_position: 12
 
 # 💻 Local Development Guide
 
-This guide covers setting up and working with Eliza in a development environment.
+This guide covers setting up and working with TELE in a development environment.
 
 ## Prerequisites
 
@@ -31,7 +31,7 @@ Clone the repository and navigate to the project directory:
 
 ```bash
 # Clone the repository
-git clone https://github.com/elizaos/eliza.git
+git clone https://github.com/TELE-Protocol/TELE.git
 cd eliza
 ```
 
@@ -261,7 +261,7 @@ Create `.vscode/launch.json`:
         {
             "type": "node",
             "request": "launch",
-            "name": "Debug Eliza",
+            "name": "Debug TELE",
             "skipFiles": ["<node_internals>/**"],
             "program": "${workspaceFolder}/src/index.ts",
             "runtimeArgs": ["-r", "ts-node/register"],

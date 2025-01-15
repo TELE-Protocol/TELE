@@ -33,7 +33,7 @@ TWITTER_DRY_RUN=false                # Optional: test without posting
 
 ## Usage
 
-Import and register the plugin in your Eliza configuration:
+Import and register the plugin in your TELE configuration:
 
 ```typescript
 import { twitterPlugin } from "@elizaos/plugin-twitter";
@@ -90,7 +90,7 @@ npm run dev
 
 ## Dependencies
 
-- `@elizaos/core`: Core Eliza functionality
+- `@elizaos/core`: Core TELE functionality
 - `agent-twitter-client`: Twitter API client
 - `tsup`: Build tool
 - Other standard dependencies listed in package.json
@@ -262,7 +262,7 @@ Special thanks to:
 
 - The Twitter/X Developer Platform team
 - The agent-twitter-client maintainers for API integration tools
-- The Eliza community for their contributions and feedback
+- The TELE community for their contributions and feedback
 
 For more information about Twitter/X integration capabilities:
 
@@ -272,4 +272,4 @@ For more information about Twitter/X integration capabilities:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

@@ -1,6 +1,6 @@
 # @elizaos/plugin-fuel
 
-A plugin for interacting with the Fuel blockchain within the ElizaOS ecosystem.
+A plugin for interacting with the Fuel blockchain within the TELE-Protocol ecosystem.
 
 ## Description
 
@@ -140,7 +140,7 @@ Special thanks to:
 - The Fuel Labs team for developing the Fuel Network
 - The Fuel Developer community
 - The fuels-ts SDK maintainers
-- The Eliza community for their contributions and feedback
+- The TELE community for their contributions and feedback
 
 For more information about Fuel capabilities:
 
@@ -151,4 +151,4 @@ For more information about Fuel capabilities:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

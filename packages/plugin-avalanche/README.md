@@ -1,6 +1,6 @@
 # @elizaos/plugin-avalanche
 
-A plugin for interacting with the Avalanche blockchain network within the ElizaOS ecosystem.
+A plugin for interacting with the Avalanche blockchain network within the TELE-Protocol ecosystem.
 
 ## Description
 
@@ -239,7 +239,7 @@ Special thanks to:
 - The Benqi protocol developers
 - The Token Mill platform team
 - The Avalanche Developer community
-- The Eliza community for their contributions and feedback
+- The TELE community for their contributions and feedback
 
 For more information about Avalanche capabilities:
 
@@ -250,4 +250,4 @@ For more information about Avalanche capabilities:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

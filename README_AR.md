@@ -1,12 +1,12 @@
-# Eliza 🤖
+# TELE 🤖
 
 <div align="center">
-  <img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
+  <img src="./docs/static/img/tele_banner.png" alt="TELE Banner" width="100%" />
 </div>
 
 <div align="center">
 
-📖 [التعليمات](https://elizaos.github.io/eliza/) | 🎯 [الأمثلة](https://github.com/thejoven/awesome-eliza)
+📖 [التعليمات](https://teleprotocol.io/agent/)
 
 </div>
 
@@ -42,23 +42,11 @@
 
 > **لمتسخدمي الويندوز يجب أن يكون لديك نظام ويندوز الفرعي للينكس:** [WSL 2](https://learn.microsoft.com/de-de/windows/wsl/install-manual).
 
-### استخدام النسخة المبدئية (موصى به)
-
-```bash
-git clone https://github.com/elizaos/eliza-starter.git
-
-cp .env.example .env
-
-pnpm i && pnpm start
-```
-
-تعلم أكثر عن كيفية تخصيص إليزا من هنا [التعليمات](https://elizaos.github.io/eliza/)
-
 ### إذا كان لديك خبرة بالفعل، يُمكنك تشغيل إليزا يدويًا.
 
 ```bash
 #  انشئ نسخة
-git clone https://github.com/elizaos/eliza.git
+git clone https://github.com/TELE-Protocol/TELE.git
 
 # ألق نظرة على آخر تحديث
 # هذا المشروع يتطور بسرعة، لذا، أوصيك باستخدام أحدث إصدار
@@ -67,7 +55,7 @@ git checkout $(git describe --tags --abbrev=0)
 
 ### تشغل إليزا مع Gitpod
 
-[![In Gitpod öffnen](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elizaos/eliza/tree/main)
+[![In Gitpod öffnen](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/TELE-Protocol/TELE/tree/main)
 
 ### عدّل ملف .env-Datei
 
@@ -121,15 +109,13 @@ pnpm install --include=optional sharp
 
 ### المجتمع والدعم
 
-- في حال إذا واجهت أي مشاكل تتعلق باستخدام إليزا ولتقديم المقترحات [GitHub Issues](https://github.com/elizaos/eliza/issues).
+- في حال إذا واجهت أي مشاكل تتعلق باستخدام إليزا ولتقديم المقترحات [GitHub Issues](https://github.com/TELE-Protocol/TELE/issues).
 - لمشاركة تطبيقاتك والتفاعل مع المجتمع [Discord](https://discord.gg/ai16z).
 
 ## المُساهمون
 
-<a href="https://github.com/elizaos/eliza/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=elizaos/eliza" />
-</a>
+
 
 ## تاريخ النجوم
 
-[![Star History Chart](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)
+

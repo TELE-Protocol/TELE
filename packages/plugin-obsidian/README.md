@@ -152,7 +152,7 @@ The plugin requires the following character secret settings:
 
 ## Usage
 
-Import and register the plugin in your Eliza agent configuration:
+Import and register the plugin in your TELE agent configuration:
 
 ```typescript
 import { obsidianPlugin } from '@elizaos/plugin-obsidian';

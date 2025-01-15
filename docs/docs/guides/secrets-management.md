@@ -4,13 +4,13 @@ sidebar_position: 11
 
 # 🔐 Secrets Management
 
-A comprehensive guide for managing secrets, API keys, and sensitive configuration in Eliza.
+A comprehensive guide for managing secrets, API keys, and sensitive configuration in TELE.
 
 ## Core Concepts
 
 ### Environment Variables
 
-Eliza uses a hierarchical environment variable system:
+TELE uses a hierarchical environment variable system:
 
 1. Character-specific namespaced environment variables (highest priority)
 2. Character-specific secrets

@@ -1,12 +1,12 @@
-# Eliza 🤖
+# TELE 🤖
 
 <div align="center">
-  <img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
+  <img src="./docs/static/img/tele_banner.png" alt="TELE Banner" width="100%" />
 </div>
 
 <div align="center">
 
-📖 [Dokumentáció](https://elizaos.github.io/eliza/) | 🎯 [Példák](https://github.com/thejoven/awesome-eliza)
+📖 [Dokumentáció](https://teleprotocol.io/agent/)
 
 </div>
 
@@ -39,38 +39,20 @@
 
 > **Megjegyzés Windows-felhasználóknak:** [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install-manual) szükséges.
 
-### Használja az Indítót (Ajánlott)
-
-```bash
-git clone https://github.com/elizaos/eliza-starter.git
-cd eliza-starter
-cp .env.example .env
-pnpm i && pnpm build && pnpm start
-```
-
-Miután az ügynök elindult, a folyamat végén egy üzenetet kell látnod, amely arra utal, hogy futtasd a "pnpm start:client" parancsot.
-Nyiss egy másik terminált, navigálj ugyanabba a könyvtárba, és futtasd az alábbi parancsot, majd kövesd az URL-t, hogy kommunikálhass az ügynököddel:
-
-```bash
-pnpm start:client
-```
-
-Ezután olvasd el a [Dokumentációt](https://elizaos.github.io/eliza/) hogy megtanuld, hogyan testreszabhatod Elizát.
-
-### Eliza manuális indítása (Csak akkor ajánlott, ha pontosan tudod, mit csinálsz)
+### TELE manuális indítása (Csak akkor ajánlott, ha pontosan tudod, mit csinálsz)
 
 ```bash
 # Klónozd a repót
-git clone https://github.com/elizaos/eliza.git
+git clone https://github.com/TELE-Protocol/TELE.git
 
 # Válts a legfrissebb kiadásra
 # A projekt gyorsan fejlődik, ezért ajánlott a legfrissebb kiadásra váltani
 git checkout $(git describe --tags --abbrev=0)
 ```
 
-### Eliza indítása Gitpoddal
+### TELE indítása Gitpoddal
 
-[![Megnyitás Gitpodban](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elizaos/eliza/tree/main)
+[![Megnyitás Gitpodban](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/TELE-Protocol/TELE/tree/main)
 
 ### Szerkezd a .env fájlt
 
@@ -82,7 +64,7 @@ cp .env.example .env
 
 Megjegyzés: A .env fájl opcionális. Ha több különálló ügynököt szeretnél futtatni, a titkos adatokat a karakter JSON-on keresztül is megadhatod.
 
-### Eliza automatikus indítása
+### TELE automatikus indítása
 
 Ez a parancs mindent beállít a projekthez, és elindítja a botot az alapértelmezett karakterrel.
 
@@ -102,7 +84,7 @@ sh scripts/start.sh
 3. Kapcsolódás X-hez (Twitter)
     - Módosítsd a `"clients": []` részt `"clients": ["twitter"]` -re a karakterfájlban, hogy csatlakozz az X-hez
 
-### Eliza manuális indítása
+### TELE manuális indítása
 
 ```bash
 pnpm i
@@ -123,15 +105,13 @@ pnpm install --include=optional sharp
 
 ### Közösség és kapcsolattartás
 
-- [GitHub Issues](https://github.com/elizaos/eliza/issues). Ideális hibák jelentésére és új funkciók javaslatára.
+- [GitHub Issues](https://github.com/TELE-Protocol/TELE/issues). Ideális hibák jelentésére és új funkciók javaslatára.
 - [Discord](https://discord.gg/ai16z). BTökéletes hely az alkalmazásaid megosztására és a közösséggel való kapcsolatépítésre.
 
 ## Közreműködők
 
-<a href="https://github.com/elizaos/eliza/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=elizaos/eliza" />
-</a>
+
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)
+

@@ -213,7 +213,7 @@ This plugin integrates with and builds upon several key technologies:
 
 Special thanks to:
 
-- The Eliza community for their contributions and feedback
+- The TELE community for their contributions and feedback
 
 For more information about WhatsApp Cloud API and its capabilities, visit:
 
@@ -223,4 +223,4 @@ For more information about WhatsApp Cloud API and its capabilities, visit:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

@@ -15,7 +15,7 @@ import { transferAction } from "./actions/transfer";
 
 export const flowPlugin: Plugin = {
     name: "flow",
-    description: "Flow Plugin for Eliza",
+    description: "Flow Plugin for TELE",
     providers: [flowWalletProvider, flowConnectorProvider],
     actions: [transferAction],
     evaluators: [],

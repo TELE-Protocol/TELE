@@ -6,7 +6,7 @@ import { executeTransfer } from "./actions/transfer";
 
 export const nearPlugin: Plugin = {
     name: "NEAR",
-    description: "Near Protocol Plugin for Eliza",
+    description: "Near Protocol Plugin for TELE",
     providers: [walletProvider],
     actions: [executeSwap, executeTransfer],
     evaluators: [],

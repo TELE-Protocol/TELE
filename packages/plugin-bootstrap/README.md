@@ -1,6 +1,6 @@
 # @elizaos/plugin-bootstrap
 
-A plugin providing core functionality and basic actions for ElizaOS agents.
+A plugin providing core functionality and basic actions for TELE-Protocol agents.
 
 ## Description
 
@@ -170,9 +170,9 @@ Contributions are welcome! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) fil
 
 Special thanks to:
 
-- The Eliza Core development team
-- The Eliza community for their contributions and feedback
+- The TELE Core development team
+- The TELE community for their contributions and feedback
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

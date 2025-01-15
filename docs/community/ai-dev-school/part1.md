@@ -5,7 +5,7 @@ description: "Introduction and Foundations"
 
 # Part 1: Introduction and Foundations
 
-In this first session of the AI Agent Dev School, we dive into the fundamentals of AI agent development using the Eliza framework. The session covers the history and evolution of JavaScript, TypeScript, and the Node.js ecosystem, providing a solid foundation for understanding the tools and technologies used in building AI agents with Eliza.
+In this first session of the AI Agent Dev School, we dive into the fundamentals of AI agent development using the TELE framework. The session covers the history and evolution of JavaScript, TypeScript, and the Node.js ecosystem, providing a solid foundation for understanding the tools and technologies used in building AI agents with TELE.
 
 ## Origins and Ecosystem
 
@@ -25,9 +25,9 @@ In this first session of the AI Agent Dev School, we dive into the fundamentals 
 - With millions of packages available, developers can easily incorporate external libraries into their projects using the `npm install` command.
 - The open-source nature of the npm ecosystem allows developers to leverage the collective efforts of the community and build upon existing code.
 
-### Monorepos in Eliza Development
+### Monorepos in TELE Development
 
-- Eliza utilizes a monorepo structure, where multiple packages or projects are contained within a single repository.
+- TELE utilizes a monorepo structure, where multiple packages or projects are contained within a single repository.
 - Monorepos offer advantages such as simplified management, easier collaboration, and the ability to share code between packages.
 
 ### Git and GitHub for Collaboration
@@ -42,18 +42,18 @@ In this first session of the AI Agent Dev School, we dive into the fundamentals 
 - Embedding models play a crucial role in converting words or concepts into numerical vectors, capturing semantic meaning and enabling tasks like semantic search and comparison.
 - These models transform textual data into multi-dimensional vectors, allowing for efficient representation and analysis of language.
 
-### Creating Custom Characters in Eliza
+### Creating Custom Characters in TELE
 
-- Eliza allows developers to create custom AI characters with distinct personalities and behaviors.
+- TELE allows developers to create custom AI characters with distinct personalities and behaviors.
 - Character definitions are specified using JSON files, which include details like the character's bio, example dialogue, and configuration options.
 - The flexibility of character customization enables tailoring agents for specific platforms and use cases.
 
 ### Integrating Discord Clients
 
-- Eliza provides seamless integration with Discord, allowing AI characters to interact with users on the popular communication platform.
+- TELE provides seamless integration with Discord, allowing AI characters to interact with users on the popular communication platform.
 - Setting up a Discord client involves configuring API keys, managing server permissions, and defining the character's behavior within the Discord environment.
 
-### Key Concepts in Eliza
+### Key Concepts in TELE
 
 - System Directives: Special instructions that guide the agent's overall behavior and decision-making process.
 - Message Examples: Sample dialogues that demonstrate the desired communication style and tone of the AI character.
@@ -61,21 +61,21 @@ In this first session of the AI Agent Dev School, we dive into the fundamentals 
 
 ## Database, Clients, and Templates
 
-### Eliza's Database and Memory Management
+### TELE's Database and Memory Management
 
-- Eliza utilizes a database system to store and manage data related to the AI agents, their interactions, and user information.
-- The default database file is located within the Eliza project structure, but alternative database systems can be configured based on specific requirements.
+- TELE utilizes a database system to store and manage data related to the AI agents, their interactions, and user information.
+- The default database file is located within the TELE project structure, but alternative database systems can be configured based on specific requirements.
 
-### Clients in Eliza
+### Clients in TELE
 
-- Clients in Eliza refer to the various platforms and communication channels through which AI agents can interact with users.
+- Clients in TELE refer to the various platforms and communication channels through which AI agents can interact with users.
 - Existing clients include Discord, Twitter, and Telegram, each with its own set of features and integration requirements.
-- Developers can create custom clients to extend Eliza's capabilities and support additional platforms or services.
+- Developers can create custom clients to extend TELE's capabilities and support additional platforms or services.
 
-### Eliza's Template System
+### TELE's Template System
 
-- Eliza employs a template system to structure and generate agent responses dynamically.
+- TELE employs a template system to structure and generate agent responses dynamically.
 - Templates allow for the incorporation of variables, conditional logic, and other dynamic elements to create more engaging and context-aware interactions.
 - The template system enables developers to define reusable patterns and customize agent responses based on various factors like user input, context, and character traits.
 
-By understanding these foundational concepts and components of the Eliza framework, developers can begin their journey into building sophisticated and interactive AI agents. The subsequent sessions of the AI Agent Dev School will delve deeper into advanced topics and practical implementation techniques.
+By understanding these foundational concepts and components of the TELE framework, developers can begin their journey into building sophisticated and interactive AI agents. The subsequent sessions of the AI Agent Dev School will delve deeper into advanced topics and practical implementation techniques.

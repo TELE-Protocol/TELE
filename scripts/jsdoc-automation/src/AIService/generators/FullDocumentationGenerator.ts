@@ -181,7 +181,7 @@ export class FullDocumentationGenerator {
                 exportName = exportMatch[1];
             }
 
-            const prompt = `Generate installation and integration instructions for this ElizaOS plugin:
+            const prompt = `Generate installation and integration instructions for this TELE-Protocol plugin:
 
             Plugin name: ${packageJson.name}
             Main export: ${exportName}
@@ -190,9 +190,9 @@ export class FullDocumentationGenerator {
             Dependencies: ${JSON.stringify(packageJson.dependencies || {}, null, 2)}
             Peer dependencies: ${JSON.stringify(packageJson.peerDependencies || {}, null, 2)}
 
-            This is a plugin for the ElizaOS agent system. Generate comprehensive installation instructions that include:
+            This is a plugin for the TELE-Protocol agent system. Generate comprehensive installation instructions that include:
 
-            1. How to add the plugin to your ElizaOS project:
+            1. How to add the plugin to your TELE-Protocol project:
                - First, explain that users need to add the following to their agent/package.json dependencies:
                  \`\`\`json
                  {
@@ -241,13 +241,13 @@ export class FullDocumentationGenerator {
         console.log(
             "AIService::generateInstallation threw an error, generating basic install prompt"
         );
-        const prompt = `Generate basic installation instructions for this ElizaOS plugin:
+        const prompt = `Generate basic installation instructions for this TELE-Protocol plugin:
 
         Plugin name: ${packageJson.name}
         Dependencies: ${JSON.stringify(packageJson.dependencies || {}, null, 2)}
         Peer dependencies: ${JSON.stringify(packageJson.peerDependencies || {}, null, 2)}
 
-        This is a plugin for the ElizaOS agent system. Include basic setup instructions.`;
+        This is a plugin for the TELE-Protocol agent system. Include basic setup instructions.`;
 
         return await this.aiService.generateComment(prompt);
     }
@@ -386,7 +386,7 @@ export class FullDocumentationGenerator {
     }
 
     ///////////////////////////////
-    /// Eliza Specific Constructs//
+    /// TELE Specific Constructs//
     ///////////////////////////////
 
     private async generateActionsDocumentation(

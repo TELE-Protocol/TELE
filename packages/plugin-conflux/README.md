@@ -1,6 +1,6 @@
 # @elizaos/plugin-conflux
 
-A plugin for interacting with the Conflux blockchain network within the ElizaOS ecosystem.
+A plugin for interacting with the Conflux blockchain network within the TELE-Protocol ecosystem.
 
 ## Description
 
@@ -223,7 +223,7 @@ Special thanks to:
 - The Conflux Developer community
 - The ConfiPump team for meme token infrastructure
 - The js-conflux-sdk maintainers
-- The Eliza community for their contributions and feedback
+- The TELE community for their contributions and feedback
 
 For more information about Conflux capabilities:
 
@@ -234,4 +234,4 @@ For more information about Conflux capabilities:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

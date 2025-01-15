@@ -1,6 +1,6 @@
-# Spheron Protocol Plugin for Eliza
+# Spheron Protocol Plugin for TELE
 
-This plugin integrates the Spheron Protocol SDK into the Eliza ecosystem, providing functionality for managing deployments, escrow operations, and lease management.
+This plugin integrates the Spheron Protocol SDK into the TELE ecosystem, providing functionality for managing deployments, escrow operations, and lease management.
 
 ## Features
 
@@ -30,7 +30,7 @@ WALLET_ADDRESS=your_wallet_address
 ```typescript
 import { spheronPlugin } from "@elizaos/plugin-spheron";
 
-// Register with Eliza
+// Register with TELE
 eliza.registerPlugin(spheronPlugin);
 ```
 
@@ -143,4 +143,4 @@ npm test
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

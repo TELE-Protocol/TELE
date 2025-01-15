@@ -4,13 +4,13 @@ sidebar_position: 10
 
 # 🔧 Advanced Usage Guide
 
-This guide covers advanced features and capabilities of Eliza, including complex integrations, custom services, and specialized plugins.
+This guide covers advanced features and capabilities of TELE, including complex integrations, custom services, and specialized plugins.
 
 ## Service Integration
 
 ### Video Processing Service
 
-Eliza supports advanced video processing capabilities through the `VideoService`:
+TELE supports advanced video processing capabilities through the `VideoService`:
 
 ```typescript
 import { VideoService } from "@elizaos/core/plugin-node";
@@ -211,7 +211,7 @@ class TrustScoreDatabase {
 ```typescript
 const customPlugin: Plugin = {
     name: "custom-plugin",
-    description: "Custom Plugin for Eliza",
+    description: "Custom Plugin for TELE",
     actions: [
         // Custom actions
     ],
@@ -401,4 +401,4 @@ debug("Detailed operation info: %O", {
 - [Trust Engine Documentation](../advanced/trust-engine.md) for scoring system
 - [Autonomous Trading Guide](../advanced/autonomous-trading.md) for trading features
 - [Fine-tuning Guide](../advanced/fine-tuning.md) for model optimization
-- [Eliza in TEE](../advanced/eliza-in-tee.md) for TEE integration
+- [TELE in TEE](../advanced/eliza-in-tee.md) for TEE integration

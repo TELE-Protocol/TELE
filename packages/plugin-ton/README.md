@@ -29,7 +29,7 @@ TON_RPC_URL=your_rpc_endpoint  # Optional - defaults to mainnet RPC
 
 ## Usage
 
-Import and register the plugin in your Eliza configuration:
+Import and register the plugin in your TELE configuration:
 
 ```typescript
 import { tonPlugin } from "@elizaos/plugin-ton";
@@ -231,7 +231,7 @@ Special thanks to:
 - The TON Foundation for developing and maintaining the TON blockchain
 - The TON Developer community
 - The TON SDK maintainers
-- The Eliza community for their contributions and feedback
+- The TELE community for their contributions and feedback
 
 For more information about TON blockchain capabilities:
 
@@ -242,4 +242,4 @@ For more information about TON blockchain capabilities:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

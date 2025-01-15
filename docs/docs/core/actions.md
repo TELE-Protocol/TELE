@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # ⚡ Actions
 
-Actions are core building blocks in Eliza that define how agents respond to and interact with messages. They allow agents to interact with external systems, modify their behavior, and perform tasks beyond simple message responses.
+Actions are core building blocks in TELE that define how agents respond to and interact with messages. They allow agents to interact with external systems, modify their behavior, and perform tasks beyond simple message responses.
 
 ---
 
@@ -35,7 +35,7 @@ interface Action {
 }
 ```
 
-Source: https://github.com/elizaos/eliza/packages/core/src/types.ts
+Source: https://github.com/TELE-Protocol/TELE/packages/core/src/types.ts
 
 ---
 
@@ -88,7 +88,7 @@ const take_order: Action = {
 };
 ```
 
-Source: https://github.com/elizaos/eliza/packages/plugin-solana/src/actions/takeOrder.ts
+Source: https://github.com/TELE-Protocol/TELE/packages/plugin-solana/src/actions/takeOrder.ts
 
 ---
 

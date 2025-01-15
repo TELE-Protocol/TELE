@@ -60,7 +60,7 @@ interface Fact {
 }
 ```
 
-Source: https://github.com/elizaos/eliza/blob/main/packages/core/src/types.ts
+Source: https://github.com/TELE-Protocol/TELE/blob/main/packages/core/src/types.ts
 
 **Example Facts:**
 
@@ -152,7 +152,7 @@ interface Evaluator {
 }
 ```
 
-Source: https://github.com/elizaos/eliza/blob/main/packages/core/src/types.ts
+Source: https://github.com/TELE-Protocol/TELE/blob/main/packages/core/src/types.ts
 
 ### Memory Integration
 
@@ -173,7 +173,7 @@ try {
 }
 ```
 
-Source: https://github.com/elizaos/eliza/blob/main/packages/core/src/tests/memory.test.ts
+Source: https://github.com/TELE-Protocol/TELE/blob/main/packages/core/src/tests/memory.test.ts
 
 ### Memory Usage
 

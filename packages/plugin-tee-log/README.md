@@ -1,16 +1,16 @@
-# TEE Log Plugin for Eliza
+# TEE Log Plugin for TELE
 
-The TEE Log Plugin for Eliza is designed to enhance the logging capabilities of the Eliza by providing a structured way to generate, store and verify TEE (Trusted Execution Environment) logs for agents. This plugin ensures that all sensitive interactions are securely logged, providing a transparent and tamper-resistant record of all sensitive activities.
+The TEE Log Plugin for TELE is designed to enhance the logging capabilities of the TELE by providing a structured way to generate, store and verify TEE (Trusted Execution Environment) logs for agents. This plugin ensures that all sensitive interactions are securely logged, providing a transparent and tamper-resistant record of all sensitive activities.
 
 ## Background
 
-As Eliza is a fully autonomous AI agent capable of running within a TEE, we need to demonstrate to the outside world that we are indeed operating within a TEE. This allows external parties to verify that our actions are protected by the TEE and that they are autonomously executed by Eliza, without any third-party interference. Therefore, it is necessary to leverage TEE's remote attestation and establish a TEE logging mechanism to prove that these operations are entirely and autonomously performed by Eliza within the TEE.
+As TELE is a fully autonomous AI agent capable of running within a TEE, we need to demonstrate to the outside world that we are indeed operating within a TEE. This allows external parties to verify that our actions are protected by the TEE and that they are autonomously executed by TELE, without any third-party interference. Therefore, it is necessary to leverage TEE's remote attestation and establish a TEE logging mechanism to prove that these operations are entirely and autonomously performed by TELE within the TEE.
 
 ## Requirements
 
 Since the TEE Logging is based on the TEE, it is necessary to have a TEE enabled environment. Currently, we support Intel SGX (Gramine) and Intel TDX (dstack).
-- using Intel SGX (Gramine), you need to enable the plugin-sgx in the Eliza runtime, which is enabled in SGX env automatically.
-- using Intel TDX (dstack), you need to enable the plugin-tee in the Eliza runtime.
+- using Intel SGX (Gramine), you need to enable the plugin-sgx in the TELE runtime, which is enabled in SGX env automatically.
+- using Intel TDX (dstack), you need to enable the plugin-tee in the TELE runtime.
 
 ## TEE Logging Mechanism
 
@@ -81,7 +81,7 @@ Important: You need to use the encrypted file system to store the database file 
 
 To use the `TeeLogService`, ensure that the TEE environment is properly configured and initialized.
 
-Enable the TEE logging in the Eliza .env file:
+Enable the TEE logging in the TELE .env file:
 
 ```env
 TEE_LOG_ENABLED=true
@@ -133,4 +133,4 @@ import {
     }
 ```
 
-After configuring the logging for the action, you can run the Eliza and see the logs through the client-direct REST API. See more details in the [Client-Direct REST API](../client-direct/src/README.md) documentation.
+After configuring the logging for the action, you can run the TELE and see the logs through the client-direct REST API. See more details in the [Client-Direct REST API](../client-direct/src/README.md) documentation.

@@ -3,7 +3,7 @@ import transfer from "./actions/transfer";
 
 export const quaiPlugin: Plugin = {
     name: "quai",
-    description: "Quai Plugin for Eliza",
+    description: "Quai Plugin for TELE",
     actions: [transfer],
     evaluators: [],
     providers: [],

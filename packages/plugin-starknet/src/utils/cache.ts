@@ -13,8 +13,8 @@ export class Cache {
         // Find the 'eliza' folder in the filepath and adjust the cache directory path
         const elizaIndex = __dirname.indexOf("eliza");
         if (elizaIndex !== -1) {
-            const pathToEliza = __dirname.slice(0, elizaIndex + 5); // include 'eliza'
-            this.cacheDir = path.join(pathToEliza, "cache");
+            const pathToTELE = __dirname.slice(0, elizaIndex + 5); // include 'eliza'
+            this.cacheDir = path.join(pathToTELE, "cache");
         } else {
             this.cacheDir = path.join(__dirname, "cache");
         }

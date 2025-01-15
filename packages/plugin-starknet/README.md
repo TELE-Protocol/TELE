@@ -1,10 +1,10 @@
 # @elizaos/plugin-starknet
 
-Core Starknet blockchain plugin for Eliza OS that provides essential services and actions for token operations, trading, and DeFi integrations.
+Core Starknet blockchain plugin for TELE OS that provides essential services and actions for token operations, trading, and DeFi integrations.
 
 ## Overview
 
-The Starknet plugin serves as a foundational component of Eliza OS, bridging Starknet blockchain capabilities with the Eliza ecosystem. It provides crucial services for token operations, trading, portfolio management, and DeFi integrations, enabling both automated and user-directed interactions with the Starknet blockchain.
+The Starknet plugin serves as a foundational component of TELE OS, bridging Starknet blockchain capabilities with the TELE ecosystem. It provides crucial services for token operations, trading, portfolio management, and DeFi integrations, enabling both automated and user-directed interactions with the Starknet blockchain.
 
 ## Features
 
@@ -159,7 +159,7 @@ This plugin integrates with and builds upon several key technologies:
 Special thanks to:
 
 - The Starknet ecosystem and all the open-source contributors who make these integrations possible.
-- The Eliza community for their contributions and feedback.
+- The TELE community for their contributions and feedback.
 
 For more information about Starknet blockchain capabilities:
 
@@ -170,4 +170,4 @@ For more information about Starknet blockchain capabilities:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

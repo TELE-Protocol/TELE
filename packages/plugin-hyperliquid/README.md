@@ -1,6 +1,6 @@
-# Hyperliquid Plugin for Eliza
+# Hyperliquid Plugin for TELE
 
-This plugin enables interaction with the Hyperliquid DEX through Eliza, providing spot trading capabilities.
+This plugin enables interaction with the Hyperliquid DEX through TELE, providing spot trading capabilities.
 
 ## Features
 
@@ -18,7 +18,7 @@ This plugin enables interaction with the Hyperliquid DEX through Eliza, providin
 
 ## Installation
 
-Add the plugin to your Eliza configuration:
+Add the plugin to your TELE configuration:
 
 ```json
 {

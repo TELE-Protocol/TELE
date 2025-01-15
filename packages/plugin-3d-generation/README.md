@@ -1,6 +1,6 @@
 # @elizaos/plugin-3d-generation
 
-A plugin for generating 3D models using the FAL.ai API within the ElizaOS ecosystem.
+A plugin for generating 3D models using the FAL.ai API within the TELE-Protocol ecosystem.
 
 ## Description
 
@@ -207,7 +207,7 @@ Special thanks to:
 - The Khronos Group for glTF standards
 - The Pixar USD team
 - The Blender Foundation
-- The Eliza community for their contributions and feedback
+- The TELE community for their contributions and feedback
 
 For more information about 3D generation capabilities:
 
@@ -218,4 +218,4 @@ For more information about 3D generation capabilities:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

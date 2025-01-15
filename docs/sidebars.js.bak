@@ -105,7 +105,7 @@ const sidebars = {
         {
           type: "doc",
           id: "advanced/eliza-in-tee",
-          label: "Eliza in TEE",
+          label: "TELE in TEE",
         },
       ],
     },
@@ -238,7 +238,7 @@ const sidebars = {
                 {
                   type: "doc",
                   id: "community/streams/2024-10-25",
-                  label: "X: Eliza Framework",
+                  label: "X: TELE Framework",
                 },
               ],
             },

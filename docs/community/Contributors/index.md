@@ -12,7 +12,7 @@ Welcome! This document is designed to help you understand how you can be part of
 
 ### For Developers
 
-1. **Extend Eliza's Capabilities**
+1. **Extend TELE's Capabilities**
 
     - Develop new actions, evaluators, and providers
     - Improve existing components and modules
@@ -57,7 +57,7 @@ Welcome! This document is designed to help you understand how you can be part of
 2. **Improve Documentation**
     - Write clear, concise, and accessible documentation
     - Create tutorials, guides, and FAQs to help users get started
-    - Provide examples and use cases to demonstrate Eliza's capabilities
+    - Provide examples and use cases to demonstrate TELE's capabilities
 
 ### For Artists and Creators
 

@@ -13,7 +13,7 @@ Users need to add their LETZAI_API_KEY in .env file.
 
 [LetzAI](https://www.letz.ai) is an image generation platform and visual discovery engine. It enables anyone to generate images about anything, by allowing users to add themselves, their products or their art style to the platform as AI Models.
 
-This plugin integrates LetzAI with Eliza, enabling agents to generate images using any LetzAI Models, including the ones you may have created specifically of or for your agent.
+This plugin integrates LetzAI with TELE, enabling agents to generate images using any LetzAI Models, including the ones you may have created specifically of or for your agent.
 
 To use this plugin, you will need a LetzAI API Key, which [can be created on your subscription page here](https://www.letz.ai/subscription). A subscription is required to create an API key.
 
@@ -95,4 +95,4 @@ Built by [mitch0z](https://www.mitchoz.com)
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

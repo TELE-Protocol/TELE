@@ -1,4 +1,4 @@
-# Eliza - Framework de simulación multi-agente
+# TELE - Framework de simulación multi-agente
 
 # https://github.com/elizaOS/eliza
 
@@ -10,7 +10,7 @@
 
 # dev branch
 
-<img src="static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
+<img src="static/img/tele_banner.png" alt="TELE Banner" width="100%" />
 
 _Respaldado por [@DegenSpartanAI](https://x.com/degenspartanai) y [@MarcAIndreessen](https://x.com/pmairca)_
 
@@ -19,7 +19,7 @@ _Respaldado por [@DegenSpartanAI](https://x.com/degenspartanai) y [@MarcAIndrees
 - Conectores Discord y Twitter con todas las funciones y compatibilidad con canales de voz de Discord.
 - Sistema de memoria RAG completo para conversaciones y documentos.
 - Capacidad para leer enlaces y archivos PDF, transcribir audio y vídeos, resumir conversaciones, etc.
-- Gran capacidad de ampliación: cree sus propias acciones y clientes para ampliar las posibilidades de Eliza.
+- Gran capacidad de ampliación: cree sus propias acciones y clientes para ampliar las posibilidades de TELE.
 - Admite modelos locales y de código abierto (configurado por defecto con Nous Hermes Llama 3.1B).
 - Compatible con OpenAI para la inferencia en la nube en un dispositivo ligero.
 - Modo "Ask Claude" para llamar a Claude en consultas más complejas
@@ -49,7 +49,7 @@ pnpm i
 pnpm start
 ```
 
-# Personalizando Eliza
+# Personalizando TELE
 
 ### Añadir acciones personalizadas
 

@@ -14,7 +14,7 @@ sidebar_position: 1
 
 ## Package Architecture
 
-The Eliza framework is built on a modular architecture where each package serves a specific purpose:
+The TELE framework is built on a modular architecture where each package serves a specific purpose:
 
 1. **Core Package**: Provides the fundamental building blocks
 2. **Agent Package**: Handles agent lifecycle and runtime

@@ -1,6 +1,6 @@
 # @elizaos/plugin-cronoszkevm
 
-A plugin for interacting with the Cronos zkEVM network within the ElizaOS ecosystem.
+A plugin for interacting with the Cronos zkEVM network within the TELE-Protocol ecosystem.
 
 ## Description
 
@@ -146,7 +146,7 @@ Special thanks to:
 - The Matter Labs team for zkSync technology
 - The Web3.js and Ethers.js maintainers
 - The Viem development team
-- The Eliza community for their contributions and feedback
+- The TELE community for their contributions and feedback
 
 For more information about Cronos zkEVM capabilities:
 
@@ -157,4 +157,4 @@ For more information about Cronos zkEVM capabilities:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

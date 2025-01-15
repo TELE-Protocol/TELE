@@ -1,6 +1,6 @@
 # @elizaos/plugin-nft-generation
 
-NFT collection generation plugin for Eliza OS that enables NFT creation, collection management, and verification on the Solana blockchain.
+NFT collection generation plugin for TELE OS that enables NFT creation, collection management, and verification on the Solana blockchain.
 
 ## Overview
 
@@ -231,7 +231,7 @@ This plugin integrates with:
 Special thanks to:
 
 - The Solana ecosystem and all the open-source contributors who make these integrations possible.
-- The Eliza community for their contributions and feedback.
+- The TELE community for their contributions and feedback.
 
 For more information about Solana blockchain capabilities:
 
@@ -242,4 +242,4 @@ For more information about Solana blockchain capabilities:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

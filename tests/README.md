@@ -1,6 +1,6 @@
 # Integration tests
 
-This directory contains smoke and integration tests for Eliza project.
+This directory contains smoke and integration tests for TELE project.
 
 ## Smoke tests
 

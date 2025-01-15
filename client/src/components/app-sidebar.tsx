@@ -45,7 +45,7 @@ export function AppSidebar() {
 
                                 <div className="flex flex-col gap-0.5 leading-none">
                                     <span className="font-semibold">
-                                        ElizaOS
+                                        TELE-Protocol
                                     </span>
                                     <span className="">v{info?.version}</span>
                                 </div>
@@ -101,7 +101,7 @@ export function AppSidebar() {
                 <SidebarMenu>
                     <SidebarMenuItem>
                         <NavLink
-                            to="https://elizaos.github.io/eliza/docs/intro/"
+                            to="https://teleprotocol.io/agent/docs/intro/"
                             target="_blank"
                         >
                             <SidebarMenuButton>

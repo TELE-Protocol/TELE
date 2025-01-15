@@ -1,7 +1,7 @@
 {
     "name": "@elizaos/plugin-spheron",
     "version": "0.1.8+build.1",
-    "description": "Spheron Protocol Plugin for Eliza",
+    "description": "Spheron Protocol Plugin for TELE",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {

@@ -1,12 +1,12 @@
-# Eliza 🤖
+# TELE 🤖
 
 <div align="center">
-  <img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
+  <img src="./docs/static/img/tele_banner.png" alt="TELE Banner" width="100%" />
 </div>
 
 <div align="center">
 
-📖 [Dokumentation](https://elizaos.github.io/eliza/) | 🎯 [Beispiele](https://github.com/thejoven/awesome-eliza)
+📖 [Dokumentation](https://teleprotocol.io/agent/)
 
 </div>
 
@@ -38,32 +38,20 @@
 
 > **Hinweis für Windows-Benutzer:** [WSL 2](https://learn.microsoft.com/de-de/windows/wsl/install-manual) ist erforderlich.
 
-### Nutzung des Starters (Empfohlen)
-
-```bash
-git clone https://github.com/elizaos/eliza-starter.git
-
-cp .env.example .env
-
-pnpm i && pnpm start
-```
-
-Lies dann die [Dokumentation](https://elizaos.github.io/eliza/), um zu erfahren, wie du Eliza anpassen kannst.
-
-### Manuelles Starten von Eliza (Nur empfohlen, wenn du genau weißt, was du tust)
+### Manuelles Starten von TELE (Nur empfohlen, wenn du genau weißt, was du tust)
 
 ```bash
 # Repository klonen
-git clone https://github.com/elizaos/eliza.git
+git clone https://github.com/TELE-Protocol/TELE.git
 
 # Wechsle zur neuesten Version
 # Dieses Projekt entwickelt sich schnell weiter, daher empfehlen wir, die neueste Version zu verwenden
 git checkout $(git describe --tags --abbrev=0)
 ```
 
-### Eliza mit Gitpod starten
+### TELE mit Gitpod starten
 
-[![In Gitpod öffnen](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elizaos/eliza/tree/main)
+[![In Gitpod öffnen](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/TELE-Protocol/TELE/tree/main)
 
 ### Bearbeite die .env-Datei
 
@@ -75,7 +63,7 @@ cp .env.example .env
 
 Hinweis: .env ist optional. Wenn du vorhast, mehrere unterschiedliche Agenten auszuführen, kannst du Geheimnisse über die Charakter-JSON übergeben.
 
-### Eliza automatisch starten
+### TELE automatisch starten
 
 Dies führt alle notwendigen Schritte aus, um das Projekt einzurichten und den Bot mit dem Standardcharakter zu starten.
 
@@ -93,7 +81,7 @@ sh scripts/start.sh
 3. Verbinde mit X (Twitter)
     - Ändere `"clients": []` zu `"clients": ["twitter"]` in der Charakterdatei, um eine Verbindung mit X herzustellen.
 
-### Eliza manuell starten
+### TELE manuell starten
 
 ```bash
 pnpm i
@@ -114,15 +102,13 @@ pnpm install --include=optional sharp
 
 ### Community & Kontakt
 
-- [GitHub Issues](https://github.com/elizaos/eliza/issues). Am besten geeignet für: Bugs, die du bei der Nutzung von Eliza findest, und Feature-Vorschläge.
+- [GitHub Issues](https://github.com/TELE-Protocol/TELE/issues). Am besten geeignet für: Bugs, die du bei der Nutzung von TELE findest, und Feature-Vorschläge.
 - [Discord](https://discord.gg/ai16z). Am besten geeignet für: das Teilen deiner Anwendungen und den Austausch mit der Community.
 
 ## Contributors
 
-<a href="https://github.com/elizaos/eliza/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=elizaos/eliza" />
-</a>
+
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)
+

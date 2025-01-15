@@ -3,7 +3,7 @@ import getPrice from "./actions/getPrice";
 
 export const coinmarketcapPlugin: Plugin = {
     name: "coinmarketcap",
-    description: "CoinMarketCap Plugin for Eliza",
+    description: "CoinMarketCap Plugin for TELE",
     actions: [getPrice],
     evaluators: [],
     providers: [],

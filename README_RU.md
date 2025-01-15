@@ -1,12 +1,12 @@
-# Eliza 🤖
+# TELE 🤖
 
 <div align="center">
-  <img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
+  <img src="./docs/static/img/tele_banner.png" alt="TELE Banner" width="100%" />
 </div>
 
 <div align="center">
 
-📖 [Документация](https://elizaos.github.io/eliza/) | 🎯 [Примеры](https://github.com/thejoven/awesome-eliza)
+📖 [Документация](https://teleprotocol.io/agent/)
 
 </div>
 
@@ -67,7 +67,7 @@ cp .env.example .env
     - Используйте команду `pnpm start --characters="path/to/your/character.json"`
     - Можно загружать несколько файлов персонажей одновременно.
 
-### Запуск Eliza
+### Запуск TELE
 
 После настройки файла `.env` и файла персонажа вы можете запустить бота с помощью следующей команды:
 
@@ -173,14 +173,12 @@ npx --no node-llama-cpp source download --gpu cuda
 
 ### Сообщество и контакты
 
-- [GitHub Issues](https://github.com/elizaos/eliza/issues). Лучше всего подходит для: сообщений об ошибках при использовании Eliza и предложений новых функций.
+- [GitHub Issues](https://github.com/TELE-Protocol/TELE/issues). Лучше всего подходит для: сообщений об ошибках при использовании TELE и предложений новых функций.
 - [Discord](https://discord.gg/ai16z). Лучше всего подходит для: обмена своими приложениями и общения с сообществом.
 
 ## Контрибьюторы
 
-<a href="https://github.com/elizaos/eliza/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=elizaos/eliza" />
-</a>
+
 
 ## История звёзд
 

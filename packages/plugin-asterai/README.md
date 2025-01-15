@@ -4,10 +4,10 @@ A plugin for interacting with [asterai](https://asterai.io) plugins and agents.
 
 ## Description
 
-This plugin provides functionality to allow Eliza agents to interact with
+This plugin provides functionality to allow TELE agents to interact with
 asterai plugins and agents.
 
-This will expand your Eliza character's utility by giving it access to all
+This will expand your TELE character's utility by giving it access to all
 the functionality of asterai's ecosystem of marketplace and private plugins
 and agents.
 
@@ -37,15 +37,15 @@ import { asteraiPlugin } from '@elizaos/plugin-asterai';
 ### Example Usage
 
 The plugin supports natural language for interacting with the asterai agent
-through your Eliza character.
+through your TELE character.
 
 For example, if your asterai agent can fetch weather data:
 
 ```typescript
-"Hey Eliza, how's the weather in LA?"
+"Hey TELE, how's the weather in LA?"
 ```
 
-Eliza will then query the asterai agent to fetch the information.
+TELE will then query the asterai agent to fetch the information.
 
 ## Development Guide
 
@@ -76,5 +76,5 @@ Contributions are welcome! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) fil
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.
 

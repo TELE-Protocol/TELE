@@ -1,6 +1,6 @@
-# Binance Plugin for Eliza
+# Binance Plugin for TELE
 
-This plugin enables Eliza to interact with the Binance cryptocurrency exchange, providing capabilities for checking prices, executing trades, and managing spot wallet balances.
+This plugin enables TELE to interact with the Binance cryptocurrency exchange, providing capabilities for checking prices, executing trades, and managing spot wallet balances.
 
 ## Features
 
@@ -31,7 +31,7 @@ BINANCE_SECRET_KEY=your_secret_key
 
 ## Installation
 
-Add the plugin to your Eliza configuration:
+Add the plugin to your TELE configuration:
 
 ```json
 {

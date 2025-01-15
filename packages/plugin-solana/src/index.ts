@@ -21,7 +21,7 @@ export { TokenProvider, WalletProvider, getTokenBalance, getTokenBalances };
 
 export const solanaPlugin: Plugin = {
     name: "solana",
-    description: "Solana Plugin for Eliza",
+    description: "Solana Plugin for TELE",
     actions: [
         executeSwap,
         pumpfun,

@@ -1,6 +1,6 @@
-# Akash Network Plugin for Eliza
+# Akash Network Plugin for TELE
 
-A powerful plugin for interacting with the Akash Network, enabling deployment management and cloud compute operations through Eliza.
+A powerful plugin for interacting with the Akash Network, enabling deployment management and cloud compute operations through TELE.
 
 ## Table of Contents
 - [Installation](#installation)

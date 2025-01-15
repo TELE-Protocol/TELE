@@ -32,7 +32,7 @@ sgx.debug = false
 sgx.remote_attestation = "dcap"
 sgx.max_threads = 64
 
-# Some dependencies of Eliza utilize WebAssembly (WASM).
+# Some dependencies of TELE utilize WebAssembly (WASM).
 # Initializing WASM requires a substantial amount of memory.
 # If there is insufficient memory, you may encounter the following error:
 # RangeError: WebAssembly.instantiate(): Out of memory: Cannot allocate Wasm memory for a new instance.

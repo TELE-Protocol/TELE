@@ -1,6 +1,6 @@
 # @elizaos/plugin-coinbase
 
-A comprehensive Coinbase integration plugin for ElizaOS that provides access to Coinbase's various APIs and services.
+A comprehensive Coinbase integration plugin for TELE-Protocol that provides access to Coinbase's various APIs and services.
 
 ## Features
 
@@ -107,7 +107,7 @@ The plugin automatically logs various operations to CSV files:
 
 ## Dependencies
 
-- `@elizaos/core`: Core ElizaOS functionality
+- `@elizaos/core`: Core TELE-Protocol functionality
 - `coinbase-api`: Coinbase API integration
 - `coinbase-advanced-sdk`: Coinbase Advanced Trading SDK
 - Additional type definitions and utilities
@@ -199,7 +199,7 @@ Special thanks to:
 - The Coinbase Commerce team
 - The Coinbase Cloud infrastructure team
 - The Advanced Trade API maintainers
-- The Eliza community for their contributions and feedback
+- The TELE community for their contributions and feedback
 
 For more information about Coinbase capabilities:
 
@@ -210,4 +210,4 @@ For more information about Coinbase capabilities:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

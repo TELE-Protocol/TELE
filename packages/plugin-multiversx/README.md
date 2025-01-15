@@ -1,6 +1,6 @@
 # @elizaos/plugin-multiversx
 
-MultiversX blockchain integration plugin for Eliza OS that enables token management and transfers.
+MultiversX blockchain integration plugin for TELE OS that enables token management and transfers.
 
 ## Overview
 
@@ -173,7 +173,7 @@ This plugin integrates with the [MultiversX blockchain](https://multiversx.com/)
 Special thanks to:
 
 - The MultiversX team for developing the MultiversX blockchain
-- The Eliza community for their contributions and feedback.
+- The TELE community for their contributions and feedback.
 
 For more information about MultiversX blockchain capabilities:
 
@@ -183,4 +183,4 @@ For more information about MultiversX blockchain capabilities:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

@@ -1,12 +1,12 @@
 # الیزا 🤖
 
 <div align="center">
-  <img src="./docs/static/img/eliza_banner.jpg" alt="الیزا بنر" width="100%" />
+  <img src="./docs/static/img/tele_banner.png" alt="الیزا بنر" width="100%" />
 </div>
 
 <div align="center">
 
-📖 [مستندات](https://elizaos.github.io/eliza/) | 🎯 [نمونه‌ها](https://github.com/thejoven/awesome-eliza)
+📖 [مستندات](https://teleprotocol.io/agent/)
 
 </div>
 
@@ -49,29 +49,11 @@
 
 > **توجه برای کاربران ویندوز:** [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install-manual) لازم است.
 
-### استفاده از پروژه آغازین (توصیه‌شده)
-
-```bash
-git clone https://github.com/elizaos/eliza-starter.git
-cd eliza-starter
-cp .env.example .env
-pnpm i && pnpm build && pnpm start
-```
-
-پس از اجرای عامل، باید پیامی برای اجرای "pnpm start:client" دریافت کنید.
-یک ترمینال جدید باز کنید و به همان دایرکتوری رفته و دستور زیر را اجرا کنید تا با عامل خود گفتگو کنید:
-
-```bash
-pnpm start:client
-```
-
-سپس [مستندات](https://elizaos.github.io/eliza/) را مطالعه کنید تا بیاموزید چگونه الیزا را سفارشی کنید.
-
 ### اجرای دستی الیزا (فقط در صورتی که تخصص دارید توصیه می‌شود)
 
 ```bash
 # کلون کردن مخزن
-git clone https://github.com/elizaos/eliza.git
+git clone https://github.com/TELE-Protocol/TELE.git
 
 # انتخاب آخرین نسخه پایدار
 # این پروژه سریع به‌روزرسانی می‌شود، پیشنهاد می‌کنیم آخرین نسخه پایدار را انتخاب کنید
@@ -82,7 +64,7 @@ git checkout $(git describe --tags --abbrev=0)
 
 ### اجرای الیزا با Gitpod
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elizaos/eliza/tree/main)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/TELE-Protocol/TELE/tree/main)
 
 ### ویرایش فایل .env
 
@@ -132,16 +114,14 @@ pnpm install --include=optional sharp
 
 ### انجمن و تماس
 
-- [مشکلات در GitHub](https://github.com/elizaos/eliza/issues). بهترین گزینه برای گزارش باگ‌ها و پیشنهاد ویژگی‌ها.
+- [مشکلات در GitHub](https://github.com/TELE-Protocol/TELE/issues). بهترین گزینه برای گزارش باگ‌ها و پیشنهاد ویژگی‌ها.
 - [Discord](https://discord.gg/ai16z). بهترین گزینه برای به اشتراک گذاشتن برنامه‌های شما و ارتباط با جامعه.
 
 ## مشارکت‌کنندگان
 
-<a href="https://github.com/elizaos/eliza/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=elizaos/eliza" />
-</a>
+
 
 ## تاریخچه ستاره‌ها
 
-[![Star History Chart](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)
+
 

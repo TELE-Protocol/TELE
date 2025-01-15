@@ -1,8 +1,8 @@
-# Client-GitHub for Eliza Framework
+# Client-GitHub for TELE Framework
 
 ## Overview
 
-The `client-github` module is a component of the Eliza framework designed to interact with GitHub repositories. It provides functionalities to clone repositories, manage branches, create pull requests, and maintain file-based knowledge for Eliza agents.
+The `client-github` module is a component of the TELE framework designed to interact with GitHub repositories. It provides functionalities to clone repositories, manage branches, create pull requests, and maintain file-based knowledge for TELE agents.
 
 This client leverages GitHub's REST API via the `@octokit/rest` library and includes robust error handling and configuration validation.
 
@@ -17,7 +17,7 @@ This client leverages GitHub's REST API via the `@octokit/rest` library and incl
 
 ## Installation
 
-Install the package as part of the Eliza framework:
+Install the package as part of the TELE framework:
 bash
 pnpm add @elizaos/client-github
 

@@ -1,6 +1,6 @@
 # @elizaos/plugin-goat
 
-A plugin for integrating blockchain capabilities through the GOAT (Great Onchain Agent Toolkit) framework within the ElizaOS ecosystem.
+A plugin for integrating blockchain capabilities through the GOAT (Great Onchain Agent Toolkit) framework within the TELE-Protocol ecosystem.
 
 ## Description
 
@@ -9,7 +9,7 @@ A plugin for integrating blockchain capabilities through the GOAT (Great Onchain
 - [Chains supported](https://ohmygoat.dev/chains-wallets-plugins)
 - [Plugins supported](https://ohmygoat.dev/chains-wallets-plugins)
 
-This plugin integrates GOAT with Eliza, giving your agent the ability to interact with many different protocols. The current setup adds onchain capabilities to your agent to send and check balances of ETH and USDC, and to swap tokens using KIM protocol. Add all the capabilities you need by adding more plugins (read below for more information)!
+This plugin integrates GOAT with TELE, giving your agent the ability to interact with many different protocols. The current setup adds onchain capabilities to your agent to send and check balances of ETH and USDC, and to swap tokens using KIM protocol. Add all the capabilities you need by adding more plugins (read below for more information)!
 
 ## Installation
 
@@ -151,7 +151,7 @@ Special thanks to:
 - The Crossmint team for smart wallet solutions
 - The Uniswap and Polymarket teams
 - The Ethereum community for ERC standards
-- The Eliza community for their contributions and feedback
+- The TELE community for their contributions and feedback
 
 For more information about GOAT capabilities:
 
@@ -162,4 +162,4 @@ For more information about GOAT capabilities:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

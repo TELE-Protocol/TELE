@@ -1,6 +1,6 @@
 # @elizaos/plugin-aptos
 
-A plugin for interacting with the Aptos blockchain network within the ElizaOS ecosystem.
+A plugin for interacting with the Aptos blockchain network within the TELE-Protocol ecosystem.
 
 ## Description
 
@@ -235,7 +235,7 @@ Special thanks to:
 - The DexScreener team for price data
 - The Move language developers
 - The Aptos Developer community
-- The Eliza community for their contributions and feedback
+- The TELE community for their contributions and feedback
 
 For more information about Aptos capabilities:
 
@@ -246,4 +246,4 @@ For more information about Aptos capabilities:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

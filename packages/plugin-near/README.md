@@ -1,6 +1,6 @@
 # @elizaos/plugin-near
 
-NEAR Protocol integration plugin for Eliza OS that enables token management, transfers, and swaps using Ref Finance.
+NEAR Protocol integration plugin for TELE OS that enables token management, transfers, and swaps using Ref Finance.
 
 ## Overview
 
@@ -208,7 +208,7 @@ Special thanks to:
 
 - The NEAR Protocol team for developing the NEAR blockchain
 - The Ref Finance team for developing the Ref Finance DEX
-- The Eliza community for their contributions and feedback.
+- The TELE community for their contributions and feedback.
 
 For more information about NEAR blockchain capabilities:
 
@@ -219,4 +219,4 @@ For more information about NEAR blockchain capabilities:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

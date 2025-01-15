@@ -4,7 +4,7 @@
     "main": "dist/index.js",
     "type": "module",
     "types": "dist/index.d.ts",
-    "description": "Movement Network Plugin for Eliza",
+    "description": "Movement Network Plugin for TELE",
     "dependencies": {
         "@elizaos/core": "workspace:*",
         "@aptos-labs/ts-sdk": "^1.26.0",

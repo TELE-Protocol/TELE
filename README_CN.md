@@ -1,23 +1,23 @@
-# Eliza 🤖
+# TELE 🤖
 
 <div align="center">
-  <img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
+  <img src="./docs/static/img/tele_banner.png" alt="TELE Banner" width="100%" />
 </div>
 
 <div align="center">
 
-📖 [文档](https://elizaos.github.io/eliza/) | 🎯 [示例](https://github.com/thejoven/awesome-eliza)
+📖 [文档](https://teleprotocol.io/agent/)
 
 </div>
 
 ## 🌍 README 翻译
 
-[日本語の説明](./README_JA.md) | [한국어 설명](./README_KOR.md) | [English](./README.md) | [Français](./README_FR.md) | [Português](./README_PTBR.md) | [Türkçe](./README_TR.md) | [Русский](./README_RU.md) | [Español](./README_ES.md) | [Italiano](./README_IT.md) | [ไทย](./README_TH.md) | [Deutsch](./README_DE.md) | [Tiếng Việt](./README_VI.md) | [עִברִית](https://github.com/elizaos/Elisa/blob/main/README_HE.md) | [Tagalog](./README_TG.md) | [Polski](./README_PL.md) | [Arabic](./README_AR.md) | [Hungarian](./README_HU.md) | [Srpski](./README_RS.md)
+[日本語の説明](./README_JA.md) | [한국어 설명](./README_KOR.md) | [English](./README.md) | [Français](./README_FR.md) | [Português](./README_PTBR.md) | [Türkçe](./README_TR.md) | [Русский](./README_RU.md) | [Español](./README_ES.md) | [Italiano](./README_IT.md) | [ไทย](./README_TH.md) | [Deutsch](./README_DE.md) | [Tiếng Việt](./README_VI.md) | [עִברִית](https://github.com/TELE-Protocol/TELE/blob/main/README_HE.md) | [Tagalog](./README_TG.md) | [Polski](./README_PL.md) | [Arabic](./README_AR.md) | [Hungarian](./README_HU.md) | [Srpski](./README_RS.md)
 
 ## 🚩 概述
 
 <div align="center">
-  <img src="./docs/static/img/eliza_diagram.jpg" alt="Eliza Diagram" width="100%" />
+  <img src="./docs/static/img/eliza_diagram.jpg" alt="TELE Diagram" width="100%" />
 </div>
 
 ## ✨ 功能
@@ -45,7 +45,7 @@
 
 ## 💰 如果您计划发行代币
 
-Eliza 是 GitHub 上排名第一的开源项目，我们正在推动下一代人机交互的发展，但我们仍然需要您的帮助，以确保代码质量最高，并快速响应影响我们整个构建者社区的关键问题.
+TELE 是 GitHub 上排名第一的开源项目，我们正在推动下一代人机交互的发展，但我们仍然需要您的帮助，以确保代码质量最高，并快速响应影响我们整个构建者社区的关键问题.
 
 为了确保可持续发展和持续创新，我们要求成功启动的项目贡献初始代币分配的 5-10%.
 
@@ -65,37 +65,20 @@ Eliza 是 GitHub 上排名第一的开源项目，我们正在推动下一代人
 
 > **Windows 用户注意：** 需要安装 [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install-manual).
 
-## 使用启动器（推荐）
-
-```bash
-git clone https://github.com/elizaos/eliza-starter.git
-cd eliza-starter
-cp .env.example .env
-pnpm i && pnpm build && pnpm start
-```
-
-当代理运行时，您应该会在最后看到运行 pnpm start:client 的消息.
-打开另一个终端并移动到同一目录，然后运行以下命令并按照 URL 与您的代理聊天.
-
-```bash
-pnpm start:client
-```
-然后阅读 [文档](https://elizaos.github.io/eliza/) 以了解如何自定义您的 Eliza
-
-## 手动启动 Eliza（仅推荐给知道自己在做什么的用户）
+## 手动启动 TELE（仅推荐给知道自己在做什么的用户）
 
 ```bash
 # 克隆仓库
-git clone https://github.com/elizaos/eliza.git
+git clone https://github.com/TELE-Protocol/TELE.git
 
 # 切换最新发布的版本
-# Eliza 的迭代速度非常快，因此我们建议经常切换到最新的发布版本以避免出现问题.
+# TELE 的迭代速度非常快，因此我们建议经常切换到最新的发布版本以避免出现问题.
 git checkout $(git describe --tags --abbrev=0)
 ```
 
-### 使用 Gitpod 启动 Eliza
+### 使用 Gitpod 启动 TELE
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elizaos/eliza/tree/main)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/TELE-Protocol/TELE/tree/main)
 
 ### 编辑 .env 文件
 
@@ -107,7 +90,7 @@ cp .env.example .env
 
 注意：.env 是可选的.如果您计划运行多个独立的代理，可以通过角色 JSON 传递密钥.
 
-### 自动启动 Eliza
+### 自动启动 TELE
 
 这将运行所有设置并使用默认角色启动机器人.
 
@@ -125,7 +108,7 @@ sh scripts/start.sh
 3. 连接 X (Twitter)
     - 在角色文件中将 `"clients": []` 更改为 `"clients": ["twitter"]` 以连接 X
 
-### 手动启动 Eliza
+### 手动启动 TELE
 
 ```bash
 pnpm i
@@ -146,16 +129,14 @@ pnpm install --include=optional sharp
 
 ### 社区与联系
 
-- [GitHub Issues](https://github.com/elizaos/eliza/issues). 最适合：使用 Eliza 时遇到的错误和功能建议.
+- [GitHub Issues](https://github.com/TELE-Protocol/TELE/issues). 最适合：使用 TELE 时遇到的错误和功能建议.
 - [Discord](https://discord.gg/ai16z). 最适合：分享您的应用程序并与社区互动.
 - [Developer Discord](https://discord.gg/3f67SH4rXT). 最适合：获取帮助和插件开发.
 
 ## 贡献者
 
-<a href="https://github.com/elizaos/eliza/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=elizaos/eliza" />
-</a>
+
 
 ## 项目 Star 历史
 
-[![Star History Chart](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)
+

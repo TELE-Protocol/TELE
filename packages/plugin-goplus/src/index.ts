@@ -7,7 +7,7 @@ export * from "./services/GoplusSecurityService";
 export const goplusPlugin: Plugin = {
   name: "goplus",
   description:
-    "goplus Plugin for Eliza - Enables on-chain security checks",
+    "goplus Plugin for TELE - Enables on-chain security checks",
   actions: [],
   evaluators: [],
   providers: [],

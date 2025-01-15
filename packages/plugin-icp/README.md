@@ -1,6 +1,6 @@
 # @elizaos/plugin-icp
 
-Internet Computer Protocol (ICP) plugin for Eliza OS.
+Internet Computer Protocol (ICP) plugin for TELE OS.
 
 ## Features
 
@@ -31,7 +31,7 @@ INTERNET_COMPUTER_PRIVATE_KEY=<your-ed25519-private-key>
 ```typescript
 import { icpPlugin } from "@elizaos/plugin-icp";
 
-// Register the plugin with Eliza
+// Register the plugin with TELE
 eliza.registerPlugin(icpPlugin);
 ```
 
@@ -221,7 +221,7 @@ Special thanks to:
 - The ICP Developer community
 - The DFINITY SDK maintainers
 - The PickPump team for meme token infrastructure
-- The Eliza community for their contributions and feedback
+- The TELE community for their contributions and feedback
 
 For more information about Internet Computer capabilities:
 
@@ -232,4 +232,4 @@ For more information about Internet Computer capabilities:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

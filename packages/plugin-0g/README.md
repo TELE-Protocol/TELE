@@ -1,6 +1,6 @@
 # @elizaos/plugin-0g
 
-A plugin for storing data using the 0G protocol within the ElizaOS ecosystem.
+A plugin for storing data using the 0G protocol within the TELE-Protocol ecosystem.
 
 ## Description
 
@@ -207,7 +207,7 @@ Special thanks to:
 - The Filecoin Foundation
 - The Flow blockchain team
 - The decentralized storage community
-- The Eliza community for their contributions and feedback
+- The TELE community for their contributions and feedback
 
 For more information about 0G capabilities:
 
@@ -218,4 +218,4 @@ For more information about 0G capabilities:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

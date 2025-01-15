@@ -1,6 +1,6 @@
 # @elizaos/plugin-tts
 
-A plugin for text-to-speech(TTS) generation using the FAL.ai API within the ElizaOS ecosystem.
+A plugin for text-to-speech(TTS) generation using the FAL.ai API within the TELE-Protocol ecosystem.
 
 ## Description
 
@@ -34,7 +34,7 @@ import { TTSGenerationPlugin } from "@elizaos/plugin-tts";
 // The plugin responds to natural language commands like:
 
 "Generate TTS of Hello World";
-"Create a TTS for Welcome to ElizaOS";
+"Create a TTS for Welcome to TELE-Protocol";
 "Make a TTS saying [your text]";
 ```
 
@@ -157,17 +157,17 @@ This plugin integrates with and builds upon several key technologies:
 
 - [FAL.ai](https://fal.ai/): AI model deployment platform
 - [langdetect](https://github.com/wooorm/franc): Language detection library
-- [ElizaOS](https://elizaos.com): Core framework
+- [TELE-Protocol](https://elizaos.com): Core framework
 
 Special thanks to:
 - The FAL.ai team for AI infrastructure
 - The langdetect development community
-- The Eliza community for their contributions and feedback
+- The TELE community for their contributions and feedback
 
 For more information about TTS capabilities:
 - [FAL.ai Documentation](https://fal.ai/docs)
-- [ElizaOS Documentation](https://docs.elizaos.com)
+- [TELE-Protocol Documentation](https://docs.elizaos.com)
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

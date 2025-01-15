@@ -1,12 +1,12 @@
 ---
 sidebar_position: 5
 title: WSL Setup Guide
-description: Guide for setting up Eliza on Windows using WSL (Windows Subsystem for Linux)
+description: Guide for setting up TELE on Windows using WSL (Windows Subsystem for Linux)
 ---
 
 # WSL Setup Guide
 
-Steps to run Eliza on Windows computer using WSL.
+Steps to run TELE on Windows computer using WSL.
 [AI Dev School Tutorial](https://www.youtube.com/watch?v=ArptLpQiKfI)
 
 ## Install WSL
@@ -67,7 +67,7 @@ If you have an NVIDIA GPU and want CUDA support:
 1. Install CUDA Toolkit on Windows from [NVIDIA's website](https://developer.nvidia.com/cuda-downloads)
 2. WSL will automatically detect and use the Windows CUDA installation
 
-## Clone and Setup Eliza
+## Clone and Setup TELE
 
 Follow the [Quickstart Guide](../quickstart.md) starting from the "Installation" section.
 

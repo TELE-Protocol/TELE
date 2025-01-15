@@ -8,7 +8,7 @@ import { coinsProvider } from "./providers/coinsProvider";
 
 export const coingeckoPlugin: Plugin = {
     name: "coingecko",
-    description: "CoinGecko Plugin for Eliza",
+    description: "CoinGecko Plugin for TELE",
     actions: [getPrice, getTrending, getMarkets, getTopGainersLosers],
     evaluators: [],
     providers: [categoriesProvider, coinsProvider],

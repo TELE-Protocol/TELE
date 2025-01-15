@@ -116,7 +116,7 @@ export async function startIntifaceEngine(): Promise<void> {
                 "12345",
                 "--use-bluetooth-le",
                 "--server-name",
-                "Eliza Buttplugin Server",
+                "TELE Buttplugin Server",
                 "--log",
                 "debug",
                 "--use-device-websocket-server",

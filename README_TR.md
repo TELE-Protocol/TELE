@@ -1,12 +1,12 @@
-# Eliza 🤖
+# TELE 🤖
 
 <div align="center">
-  <img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
+  <img src="./docs/static/img/tele_banner.png" alt="TELE Banner" width="100%" />
 </div>
 
 <div align="center">
 
-📖 [Dokümantasyon](https://elizaos.github.io/eliza/) | 🎯 [Örnekler](https://github.com/thejoven/awesome-eliza)
+📖 [Dokümantasyon](https://teleprotocol.io/agent/)
 
 </div>
 
@@ -55,7 +55,7 @@ cp .env.example .env
     - `pnpm start --characters="path/to/your/character.json"` komutunu kullanın
     - Birden fazla karakter dosyası aynı anda yüklenebilir
 
-### Eliza'yı Başlatın
+### TELE'yı Başlatın
 
 .env dosyasını ve karakter dosyasını ayarladıktan sonra, botu aşağıdaki komutla başlatabilirsiniz:
 
@@ -78,15 +78,13 @@ pnpm install --include=optional sharp
 
 ### Topluluk ve İletişim
 
-- [GitHub Issues](https://github.com/elizaos/eliza/issues). Buna uygundur: Eliza kullanırken karşılaştığınız hatalar ve özellik önerileri.
+- [GitHub Issues](https://github.com/TELE-Protocol/TELE/issues). Buna uygundur: TELE kullanırken karşılaştığınız hatalar ve özellik önerileri.
 - [Discord](https://discord.gg/ai16z). Buna uygundur: Uygulamalarınızı paylaşmak ve toplulukla vakit geçirmek.
 
 ## Katkıda Bulunanlar
 
-<a href="https://github.com/elizaos/eliza/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=elizaos/eliza" />
-</a>
+
 
 ## Yıldız Geçmişi
 
-[![Star History Chart](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)
+

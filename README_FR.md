@@ -1,6 +1,6 @@
-# Eliza
+# TELE
 
-<img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
+<img src="./docs/static/img/tele_banner.png" alt="TELE Banner" width="100%" />
 
 ## Fonctionnalités
 
@@ -12,7 +12,7 @@
 - 🚀 Grande personnalisation possible : création de nouveaux clients et de nouvelles actions
 - 📦 Simplicité d'utilisation
 
-Que pouvez-vous faire avec Eliza?
+Que pouvez-vous faire avec TELE?
 
 - 🤖 Chatbot
 - 🕵 Agents autonomes
@@ -46,7 +46,7 @@ cp .env.example .env
     - Lancer la commande `pnpm start --characters="path/to/your/character.json"`
     - Plusieurs fichiers personnages peuvent être ajoutés en même temps
 
-### Lancer Eliza
+### Lancer TELE
 
 Après avoir terminé la configuration et les fichiers personnage, lancer le bot en tapant la ligne de commande suivante:
 
@@ -70,15 +70,13 @@ pnpm install --include=optional sharp
 
 ### Communauté et réseaux sociaux
 
-- [GitHub](https://github.com/elizaos/eliza/issues). Pour partager les bugs découverts lors de l'utilisation d'Eliza, et proposer de nouvelles fonctionnalités.
+- [GitHub](https://github.com/TELE-Protocol/TELE/issues). Pour partager les bugs découverts lors de l'utilisation d'TELE, et proposer de nouvelles fonctionnalités.
 - [Discord](https://discord.gg/ai16z). Pour partager ses applications et rencontrer la communauté.
 
 ## Contributeurs
 
-<a href="https://github.com/elizaos/eliza/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=elizaos/eliza" />
-</a>
+
 
 ## Historique d'étoiles
 
-[![Star History Chart](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)
+

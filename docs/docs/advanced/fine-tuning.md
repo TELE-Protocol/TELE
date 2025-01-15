@@ -6,11 +6,11 @@ sidebar_position: 13
 
 ## Overview
 
-Eliza supports multiple AI model providers and offers extensive configuration options for fine-tuning model behavior, embedding generation, and performance optimization.
+TELE supports multiple AI model providers and offers extensive configuration options for fine-tuning model behavior, embedding generation, and performance optimization.
 
 ## Model Providers
 
-Eliza supports multiple model providers through a flexible configuration system:
+TELE supports multiple model providers through a flexible configuration system:
 
 ```typescript
 enum ModelProviderName {

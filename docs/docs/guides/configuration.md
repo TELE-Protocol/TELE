@@ -4,7 +4,7 @@ sidebar_position: 9
 
 # ⚙️ Configuration Guide
 
-This guide covers how to configure Eliza for different use cases and environments. We'll walk through all available configuration options and best practices.
+This guide covers how to configure TELE for different use cases and environments. We'll walk through all available configuration options and best practices.
 
 ## Environment Configuration
 
@@ -74,7 +74,7 @@ LIVEPEER_GATEWAY_URL=
 
 ### Cloudflare AI Gateway Integration
 
-Eliza supports routing API calls through [Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/), which provides several benefits:
+TELE supports routing API calls through [Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/), which provides several benefits:
 
 - Detailed analytics and monitoring of message traffic and response times
 - Cost optimization through request caching and usage tracking across providers
@@ -98,12 +98,12 @@ Supported providers through Cloudflare AI Gateway:
 - Anthropic
 - Groq
 
-When enabled, Eliza will automatically route requests through your Cloudflare AI Gateway endpoint. The gateway URL is constructed in the format:
+When enabled, TELE will automatically route requests through your Cloudflare AI Gateway endpoint. The gateway URL is constructed in the format:
 ```
 https://gateway.ai.cloudflare.com/v1/${accountId}/${gatewayId}/${provider}
 ```
 
-If the gateway configuration is incomplete or disabled, Eliza will fall back to direct API calls.
+If the gateway configuration is incomplete or disabled, TELE will fall back to direct API calls.
 
 ```bash
 # Cloudflare AI Gateway Settings
@@ -117,12 +117,12 @@ Supported providers through Cloudflare AI Gateway:
 - Anthropic
 - Groq
 
-When enabled, Eliza will automatically route requests through your Cloudflare AI Gateway endpoint. The gateway URL is constructed in the format:
+When enabled, TELE will automatically route requests through your Cloudflare AI Gateway endpoint. The gateway URL is constructed in the format:
 ```
 https://gateway.ai.cloudflare.com/v1/${accountId}/${gatewayId}/${provider}
 ```
 
-If the gateway configuration is incomplete or disabled, Eliza will fall back to direct API calls.
+If the gateway configuration is incomplete or disabled, TELE will fall back to direct API calls.
 
 ### Image Generation
 

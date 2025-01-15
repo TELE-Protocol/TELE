@@ -1,6 +1,6 @@
-# Eliza
+# TELE
 
-<img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
+<img src="./docs/static/img/tele_banner.png" alt="TELE Banner" width="100%" />
 
 ## 功能
 
@@ -12,7 +12,7 @@
 - ☁️ 多模型支持，包括Llama、OpenAI、Grok、Anthropic等
 - 📦 简单好用
 
-你可以用Eliza做什么？
+你可以用TELE做什么？
 
 - 🤖 聊天机器人
 - 🕵️ 自主Agents
@@ -45,7 +45,7 @@ pnpm i
 pnpm start
 ```
 
-# 自定义Eliza
+# 自定义TELE
 
 ### 添加常规行为
 

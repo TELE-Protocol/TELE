@@ -8,7 +8,7 @@ Set the `BAGEL_API_KEY` environment variable to your API key.
 
 In bakery, create your model and fine-tune dataset.
 
-## Fine-tune with Eliza
+## Fine-tune with TELE
 
 ```bash
 curl -X POST http://localhost:3000/fine-tune \
@@ -46,7 +46,7 @@ curl -X GET "http://localhost:3000/fine-tune/8566c47a-ada8-441c-95bc-7bb07656c4c
 
 # TEE Logging
 
-TEE Logging is a feature that allows you to log the activities of your agents. Through these logs, you can verify that the actions of the agents are protected by the TEE and that they are executed autonomously by Eliza, without any third-party interference.
+TEE Logging is a feature that allows you to log the activities of your agents. Through these logs, you can verify that the actions of the agents are protected by the TEE and that they are executed autonomously by TELE, without any third-party interference.
 
 ## Setup
 

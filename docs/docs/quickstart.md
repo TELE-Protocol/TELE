@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ## Prerequisites
 
-Before getting started with Eliza, ensure you have:
+Before getting started with TELE, ensure you have:
 
 - [Node.js 23+](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 - [pnpm 9+](https://pnpm.io/installation)
@@ -18,12 +18,12 @@ Before getting started with Eliza, ensure you have:
 
 1. **Clone and Install**
 
-    Please be sure to check what the [latest available stable version tag](https://github.com/elizaos/eliza/tags) is.
+    Please be sure to check what the [latest available stable version tag](https://github.com/TELE-Protocol/TELE/tags) is.
 
     Clone the repository
 
     ```bash
-    git clone https://github.com/elizaos/eliza.git
+    git clone https://github.com/TELE-Protocol/TELE.git
     ```
 
     Enter directory
@@ -87,7 +87,7 @@ pnpm build
 
 ## Choose Your Model
 
-Eliza supports multiple AI models:
+TELE supports multiple AI models:
 
 - **Heurist**: Set `modelProvider: "heurist"` in your character file. Most models are uncensored.
     - LLM: Select available LLMs [here](https://docs.heurist.ai/dev-guide/supported-models#large-language-models-llms) and configure `SMALL_HEURIST_MODEL`,`MEDIUM_HEURIST_MODEL`,`LARGE_HEURIST_MODEL`
@@ -311,6 +311,6 @@ Once you have your agent running, explore:
 3. ⚡ [Add Custom Actions](./core/actions.md)
 4. 🔧 [Advanced Configuration](./guides/configuration.md)
 
-For detailed API documentation, troubleshooting, and advanced features, check out our [full documentation](https://elizaos.github.io/eliza/).
+For detailed API documentation, troubleshooting, and advanced features, check out our [full documentation](https://teleprotocol.io/agent/).
 
 Join our [Discord community](https://discord.gg/ai16z) for support and updates!

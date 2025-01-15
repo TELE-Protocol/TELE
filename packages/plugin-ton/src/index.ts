@@ -6,7 +6,7 @@ export { WalletProvider, transferAction as TransferTonToken };
 
 export const tonPlugin: Plugin = {
     name: "ton",
-    description: "Ton Plugin for Eliza",
+    description: "Ton Plugin for TELE",
     actions: [transferAction],
     evaluators: [],
     providers: [nativeWalletProvider],

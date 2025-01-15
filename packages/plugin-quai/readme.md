@@ -1,6 +1,6 @@
 # @elizaos/plugin-quai
 
-Quai Network integration plugin for Eliza OS that enables native token transfers and interactions with the Quai blockchain.
+Quai Network integration plugin for TELE OS that enables native token transfers and interactions with the Quai blockchain.
 
 ## Overview
 
@@ -146,4 +146,4 @@ For more information about Quai Network capabilities:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

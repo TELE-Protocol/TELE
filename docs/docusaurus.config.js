@@ -109,7 +109,7 @@ const config = {
                 treatValidationWarningsAsErrors: true,
                 searchInComments: true,
                 navigationLinks: {
-                    GitHub: "https://github.com/elizaos/eliza",
+                    GitHub: "https://github.com/TELE-Protocol/TELE",
                     Documentation: "/docs/intro",
                 },
             },
@@ -130,7 +130,7 @@ const config = {
             {
                 docs: {
                     sidebarPath: "./sidebars.js",
-                    editUrl: "https://github.com/elizaos/eliza/tree/main/docs/",
+                    editUrl: "https://github.com/TELE-Protocol/TELE/tree/main/docs/",
                     routeBasePath: "docs",
                     exclude: ["**/_media/**"],
                     showLastUpdateAuthor: true,
@@ -157,7 +157,7 @@ const config = {
         navbar: {
             title: "eliza",
             logo: {
-                alt: "Eliza Logo",
+                alt: "TELE Logo",
                 src: "img/favicon.ico",
             },
             items: [
@@ -182,7 +182,7 @@ const config = {
                     docId: "index",
                 },
                 {
-                    href: "https://github.com/elizaos/eliza",
+                    href: "https://github.com/TELE-Protocol/TELE",
                     label: "GitHub",
                     position: "right",
                 },
@@ -218,7 +218,7 @@ const config = {
                     items: [
                         {
                             label: "GitHub",
-                            href: "https://github.com/elizaos/eliza",
+                            href: "https://github.com/TELE-Protocol/TELE",
                         },
                     ],
                 },

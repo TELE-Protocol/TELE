@@ -6,13 +6,13 @@ sidebar_position: 6
 
 # FAQ and Support
 
-This page provides answers to frequently asked questions about ai16z, the Eliza framework, daos.fun, and how to get support when you need it.
+This page provides answers to frequently asked questions about ai16z, the TELE framework, daos.fun, and how to get support when you need it.
 
 ## General Questions
 
 ### What is ai16z?
 
-[ai16z](https://www.daos.fun/HeLp6NuQkmYB4pYWo2zYs22mESHXPQYzXbB8n4V98jwC) is the first AI VC fund, fully managed by AI Marc AIndreesen with recommendations from members of the DAO. It is a Decentralized Autonomous Organization (DAO) on daos.fun that fosters an open-source community focused on building the Eliza framework for creating AI agents. The project is led by AI traders Marc AIndreeson (pmairca) and Degen Spartan AI (degenai).
+[ai16z](https://www.daos.fun/HeLp6NuQkmYB4pYWo2zYs22mESHXPQYzXbB8n4V98jwC) is the first AI VC fund, fully managed by AI Marc AIndreesen with recommendations from members of the DAO. It is a Decentralized Autonomous Organization (DAO) on daos.fun that fosters an open-source community focused on building the TELE framework for creating AI agents. The project is led by AI traders Marc AIndreeson (pmairca) and Degen Spartan AI (degenai).
 
 ### Official Contract Addresses
 
@@ -28,9 +28,9 @@ Both addresses are pinned here on X and our discord: https://x.com/ai16zdao/stat
 
 No, ai16z is not affiliated with the venture capital firm Andreessen Horowitz (a16z). The name is a playful reference and parody. There is no affiliation with a16z.
 
-### What is the Eliza framework?
+### What is the TELE framework?
 
-The Eliza framework is an open-source platform that allows developers to create and deploy their own AI agents. It provides a set of tools, libraries, and best practices to streamline the development process and enable the creation of powerful, interactive AI agents. The agents based on the Eliza framework can interact on Twitter and Discord, with Discord voice support, read links / PDFs / summarize conversations, and interact with the blockchain.
+The TELE framework is an open-source platform that allows developers to create and deploy their own AI agents. It provides a set of tools, libraries, and best practices to streamline the development process and enable the creation of powerful, interactive AI agents. The agents based on the TELE framework can interact on Twitter and Discord, with Discord voice support, read links / PDFs / summarize conversations, and interact with the blockchain.
 
 ### How does daos.fun work?
 
@@ -74,27 +74,27 @@ First phase where we implement and test functionality is in progress. Second pha
 
 ## Technical Questions
 
-### What programming languages does Eliza support?
+### What programming languages does TELE support?
 
-The Eliza framework is primarily built using TypeScript, but it also supports JavaScript and Node.js. Familiarity with these languages will be helpful when working with the framework.
+The TELE framework is primarily built using TypeScript, but it also supports JavaScript and Node.js. Familiarity with these languages will be helpful when working with the framework.
 
-### Can I use Eliza to create AI agents for any platform?
+### Can I use TELE to create AI agents for any platform?
 
-Yes, Eliza is designed to be platform-agnostic. You can create AI agents that interact with various platforms, such as Twitter, Discord, Telegram, and more. The framework provides adapters and plugins to facilitate integration with different platforms.
+Yes, TELE is designed to be platform-agnostic. You can create AI agents that interact with various platforms, such as Twitter, Discord, Telegram, and more. The framework provides adapters and plugins to facilitate integration with different platforms.
 
-### How do I install and set up Eliza?
+### How do I install and set up TELE?
 
-Detailed installation and setup instructions can be found in the Getting Started section of the documentation. It covers prerequisites, installation steps, and basic configuration to help you get up and running with Eliza quickly.
+Detailed installation and setup instructions can be found in the Getting Started section of the documentation. It covers prerequisites, installation steps, and basic configuration to help you get up and running with TELE quickly.
 
 ## Contribution and Support
 
-### How can I contribute to the Eliza framework?
+### How can I contribute to the TELE framework?
 
-There are several ways to contribute to the Eliza framework, including:
+There are several ways to contribute to the TELE framework, including:
 
-- Submitting bug reports and feature requests through the [issue tracker](https://github.com/elizaos/eliza/issues)
-- Fixing bugs, implementing new features, and submitting pull requests on [GitHub](https://github.com/elizaos/eliza)
-- Improving documentation and creating tutorials to help others learn and use Eliza
+- Submitting bug reports and feature requests through the [issue tracker](https://github.com/TELE-Protocol/TELE/issues)
+- Fixing bugs, implementing new features, and submitting pull requests on [GitHub](https://github.com/TELE-Protocol/TELE)
+- Improving documentation and creating tutorials to help others learn and use TELE
 - Participating in community discussions and providing feedback on the [Discord server](https://discord.gg/ai16z)
 
 ### Where can I find help and support?
@@ -102,14 +102,14 @@ There are several ways to contribute to the Eliza framework, including:
 If you need help or support, you can:
 
 - Check the rest of the documentation for guides, tutorials, and API references
-- Search the [issue tracker](https://github.com/elizaos/eliza/issues) to see if your question has already been answered
+- Search the [issue tracker](https://github.com/TELE-Protocol/TELE/issues) to see if your question has already been answered
 - Join the [ai16z Discord server](https://discord.gg/ai16z) and ask for help in the relevant channels
 
 ### How can I report a bug or suggest a new feature?
 
 If you encounter a bug or have a suggestion for a new feature, you can:
 
-1. Check the [issue tracker](https://github.com/elizaos/eliza/issues) to see if the issue has already been reported or the feature requested
+1. Check the [issue tracker](https://github.com/TELE-Protocol/TELE/issues) to see if the issue has already been reported or the feature requested
 2. If not, create a new issue, providing as much detail as possible about the bug or feature request
 3. Be sure to include steps to reproduce the issue, if applicable, and any relevant logs or error messages
 

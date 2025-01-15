@@ -1,8 +1,8 @@
 # `@elizaos/plugin-depin`
 
-The **`@elizaos/plugin-depin`** plugin empowers the Eliza Agent Framework with **Perception** and **Action** capabilities via **Decentralized Physical Infrastructure Networks (DePINs)**, bridging the digital intelligence of AI with the physical world.
+The **`@elizaos/plugin-depin`** plugin empowers the TELE Agent Framework with **Perception** and **Action** capabilities via **Decentralized Physical Infrastructure Networks (DePINs)**, bridging the digital intelligence of AI with the physical world.
 
-- **DePINs as "Senses and Actuators":** Enables real-time data access from decentralized sensors and control over physical devices, making DePINs the sensory organs and actuators for Eliza agents.
+- **DePINs as "Senses and Actuators":** Enables real-time data access from decentralized sensors and control over physical devices, making DePINs the sensory organs and actuators for TELE agents.
 - **Unlock Transformative Use Cases:** From drone delivery to smart city infrastructure and precision agriculture, this plugin extends your AI agents' potential.
 - **Foundation for Sentient AI:** Facilitates contextual awareness, predictive capabilities, and goal-oriented behavior based on real-world sensory input and continuous feedback loops.
 
@@ -43,7 +43,7 @@ Update `character.json` with the following configuration to enable the plugin:
 ]
 ```
 
-This ensures that the **`@elizaos/plugin-depin`** plugin is loaded and operational within your Eliza Agent Framework, enabling seamless integration with DePIN networks and their data.
+This ensures that the **`@elizaos/plugin-depin`** plugin is loaded and operational within your TELE Agent Framework, enabling seamless integration with DePIN networks and their data.
 
 ---
 
@@ -51,7 +51,7 @@ This ensures that the **`@elizaos/plugin-depin`** plugin is loaded and operation
 
 ### DePINScan
 
-The **DePINScan provider** bridges the gap between your Eliza agents and decentralized physical infrastructure. By fetching and caching data from the DePINScan API, it provides actionable insights such as:
+The **DePINScan provider** bridges the gap between your TELE agents and decentralized physical infrastructure. By fetching and caching data from the DePINScan API, it provides actionable insights such as:
 
 - **Daily Metrics:** Get the latest statistics on DePIN activity, including device operations and network performance.
 - **Project Data:** Detailed information about individual DePIN projects:
@@ -67,7 +67,7 @@ The **DePINScan provider** bridges the gap between your Eliza agents and decentr
 
 ### DePIN Projects
 
-The **DEPIN_PROJECTS** action empowers Eliza agents to interact with and analyze DePIN project data, enabling:
+The **DEPIN_PROJECTS** action empowers TELE agents to interact with and analyze DePIN project data, enabling:
 
 - **Token Metrics Queries:** Retrieve token prices, market capitalizations, and valuations for projects.
 - **Project Comparisons:** Compare key metrics across multiple DePIN projects.
@@ -77,7 +77,7 @@ The **DEPIN_PROJECTS** action empowers Eliza agents to interact with and analyze
 
 ### Sentient AI
 
-The **SENTIENT_AI** action integrates Sentient AI APIs to provide Eliza agents with weather-related capabilities. Key functionalities include:
+The **SENTIENT_AI** action integrates Sentient AI APIs to provide TELE agents with weather-related capabilities. Key functionalities include:
 
 - **Real-Time Weather Updates:** Deliver current temperature, humidity, and general conditions for specified locations. (supported by Nubila)
 - **Forecast Analysis:** Generate short- and long-term forecasts to assist in planning and decision-making. (supported by Nubila)
@@ -87,7 +87,7 @@ The **SENTIENT_AI** action integrates Sentient AI APIs to provide Eliza agents w
 
 ## Sentient AI with DePIN Integration
 
-The **`@elizaos/plugin-depin`** plugin is a critical component in the evolution of Eliza agents into sentient systems that are aware of and responsive to their physical environments. By integrating with DePINs, this plugin enables AI agents to:
+The **`@elizaos/plugin-depin`** plugin is a critical component in the evolution of TELE agents into sentient systems that are aware of and responsive to their physical environments. By integrating with DePINs, this plugin enables AI agents to:
 
 - **Perceive:** Access sensory data streams from devices across decentralized networks, including environmental sensors, location trackers, and motion detectors.
 - **Act:** Influence and control connected devices in real-time, unlocking a wide array of use cases from logistics to urban management.

@@ -6,7 +6,7 @@ export { WalletProvider, transferToken as TransferMovementToken };
 
 export const movementPlugin: Plugin = {
     name: "movement",
-    description: "Movement Network Plugin for Eliza",
+    description: "Movement Network Plugin for TELE",
     actions: [transferToken],
     evaluators: [],
     providers: [walletProvider],

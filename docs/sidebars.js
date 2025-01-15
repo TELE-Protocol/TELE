@@ -115,7 +115,7 @@ const sidebars = {
                 {
                     type: "doc",
                     id: "advanced/eliza-in-tee",
-                    label: "Eliza in TEE",
+                    label: "TELE in TEE",
                 },
                 {
                     type: "doc",

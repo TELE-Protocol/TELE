@@ -2,7 +2,7 @@
 
 ## Overview
 
-Eliza's client packages enable integration with various platforms and services. Each client provides a standardized interface for sending and receiving messages, handling media, and interacting with platform-specific features.
+TELE's client packages enable integration with various platforms and services. Each client provides a standardized interface for sending and receiving messages, handling media, and interacting with platform-specific features.
 
 ### Architecture Overview
 

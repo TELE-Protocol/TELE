@@ -72,7 +72,7 @@ export const postTweetAction: Action = {
             )
         ) {
             elizaLogger.error(
-                `Parameter 'VERIFIABLE_INFERENCE_ENABLED' not set, Eliza will run this action!`
+                `Parameter 'VERIFIABLE_INFERENCE_ENABLED' not set, TELE will run this action!`
             );
             return false;
         }

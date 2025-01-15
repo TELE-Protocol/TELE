@@ -1,10 +1,10 @@
 # @elizaos/plugin-node
 
-Core Node.js plugin for Eliza OS that provides essential services and actions for file operations, media processing, and cloud integrations.
+Core Node.js plugin for TELE OS that provides essential services and actions for file operations, media processing, and cloud integrations.
 
 ## Overview
 
-The Node plugin serves as a foundational component of Eliza OS, bridging core Node.js capabilities with the Eliza ecosystem. It provides crucial services for file operations, media processing, speech synthesis, and cloud integrations, enabling both local and cloud-based functionality for Eliza agents.
+The Node plugin serves as a foundational component of TELE OS, bridging core Node.js capabilities with the TELE ecosystem. It provides crucial services for file operations, media processing, speech synthesis, and cloud integrations, enabling both local and cloud-based functionality for TELE agents.
 
 ## Features
 
@@ -64,7 +64,7 @@ import { createNodePlugin } from "@elizaos/plugin-node";
 // Initialize the plugin
 const nodePlugin = createNodePlugin();
 
-// Register with Eliza OS
+// Register with TELE OS
 elizaos.registerPlugin(nodePlugin);
 ```
 
@@ -368,7 +368,7 @@ This plugin integrates with and builds upon several key technologies:
 Special thanks to:
 
 - The Node.js community and all the open-source contributors who make these integrations possible.
-- The Eliza community for their contributions and feedback.
+- The TELE community for their contributions and feedback.
 
 For more information about Node.js capabilities:
 
@@ -378,4 +378,4 @@ For more information about Node.js capabilities:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

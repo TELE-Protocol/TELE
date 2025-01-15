@@ -2,7 +2,7 @@
 
 # Variable: elizaLogger
 
-> `const` **elizaLogger**: `ElizaLogger`
+> `const` **elizaLogger**: `TELELogger`
 
 ## Defined in
 

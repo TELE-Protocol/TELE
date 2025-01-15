@@ -1,6 +1,6 @@
 # @elizaos/plugin-coinmarketcap
 
-A plugin for Eliza that enables cryptocurrency price checking using the CoinMarketCap API.
+A plugin for TELE that enables cryptocurrency price checking using the CoinMarketCap API.
 
 ## Features
 
@@ -26,12 +26,12 @@ npm install @elizaos/plugin-coinmarketcap
 COINMARKETCAP_API_KEY=your_api_key
 ```
 
-3. Register the plugin in your Eliza configuration:
+3. Register the plugin in your TELE configuration:
 
 ```typescript
 import { CoinMarketCapPlugin } from "@elizaos/plugin-coinmarketcap";
 
-// In your Eliza configuration
+// In your TELE configuration
 plugins: [
     new CoinMarketCapPlugin(),
     // ... other plugins
@@ -124,4 +124,4 @@ For support, please open an issue in the repository or reach out to the maintain
 
 - [CoinMarketCap API Documentation](https://coinmarketcap.com/api/documentation/v1/)
 
-- [GitHub Repository](https://github.com/elizaos/eliza/tree/main/packages/plugin-coinmarketcap)
+- [GitHub Repository](https://github.com/TELE-Protocol/TELE/tree/main/packages/plugin-coinmarketcap)

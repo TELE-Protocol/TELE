@@ -5,7 +5,7 @@ powered by Primus' zkTLS protocol.
 
 ## Overview
 
-In the Eliza framework, an agent consists of three key components: a brain (accessing an LLM), actions (the tasks the
+In the TELE framework, an agent consists of three key components: a brain (accessing an LLM), actions (the tasks the
 agent performs), and perception (gathering external information from providers). To fully verify agent activities, it's
 essential to ensure that the agent's thoughts, actions, and external information requests are all verifiable. This
 plugin enables full verification of these activities.

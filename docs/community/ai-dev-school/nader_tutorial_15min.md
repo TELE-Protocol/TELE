@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Building a Social AI Agent in 15 Minutes
 
-In this tutorial, you'll learn how to quickly build your own social media AI agent that can autonomously post tweets, respond to interactions, and maintain its own unique personality. We'll be using the [Eliza framework](https://ai16z.github.io/eliza/) by a16z and TypeScript.
+In this tutorial, you'll learn how to quickly build your own social media AI agent that can autonomously post tweets, respond to interactions, and maintain its own unique personality. We'll be using the [TELE framework](https://ai16z.github.io/eliza/) by a16z and TypeScript.
 
 Video: https://youtu.be/6PZVwNTl5hI?si=0zB3OvYU4KiRQTxI
 
@@ -16,7 +16,7 @@ Video: https://youtu.be/6PZVwNTl5hI?si=0zB3OvYU4KiRQTxI
 
 ## Project Setup
 
-1. Clone the Eliza repo and check out the latest version:
+1. Clone the TELE repo and check out the latest version:
 
     ```bash
     git clone https://github.com/elizaOS/eliza.git
@@ -99,7 +99,7 @@ Video: https://youtu.be/6PZVwNTl5hI?si=0zB3OvYU4KiRQTxI
 ## Resources
 
 - [Code Repo](https://github.com/dabit3/ai-agent-cognitivedriftt)
-- [Eliza Docs](https://ai16z.github.io/eliza/)
+- [TELE Docs](https://ai16z.github.io/eliza/)
 - [Example Character File](https://github.com/ai16z/characterfile/blob/main/examples/example.character.json)
 - [Default Character](https://github.com/elizaOS/eliza/blob/8f4e2643dcb1a5aafb25267e80d22e7e12fd044a/packages/core/src/defaultCharacter.ts#L4)
 - [Environment Variables](https://gist.github.com/dabit3/7602e97f3abe0a93bdd84dc250f23021)

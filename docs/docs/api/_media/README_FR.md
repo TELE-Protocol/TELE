@@ -1,6 +1,6 @@
-# Eliza
+# TELE
 
-<img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
+<img src="./docs/static/img/tele_banner.png" alt="TELE Banner" width="100%" />
 
 ## la fonctionnalité
 
@@ -12,7 +12,7 @@
 - ☁ ️ plusieurs modèles, y compris Llama, OpenAI Grok Anthropic, etc.
 - 📦 simple et facile à utiliser
 
-Que pouvez-vous faire avec Eliza?
+Que pouvez-vous faire avec TELE?
 
 - 🤖 le chatbot
 - 🕵 ️ Agents autonomes
@@ -45,7 +45,7 @@ pnpm i
 pnpm start
 ```
 
-# personnalisez votre Eliza
+# personnalisez votre TELE
 
 ### ajouter un comportement régulier
 

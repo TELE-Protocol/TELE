@@ -1,6 +1,6 @@
 # @elizaos/plugin-abstract
 
-A plugin for interacting with the Abstract blockchain network within the ElizaOS ecosystem.
+A plugin for interacting with the Abstract blockchain network within the TELE-Protocol ecosystem.
 
 ## Description
 
@@ -172,4 +172,4 @@ This plugin integrates with and builds upon several key technologies:
 
 ## License
 
-This plugin is part of the Eliza project. See the main project repository for license information.
+This plugin is part of the TELE project. See the main project repository for license information.

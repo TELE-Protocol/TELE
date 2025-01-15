@@ -45,7 +45,7 @@ export default {
     validate: async (_runtime: IAgentRuntime, _message: Memory) => {
         return true;
     },
-    description: "Launch an Eliza agent",
+    description: "Launch an TELE agent",
     handler: async (
         runtime: IAgentRuntime,
         message: Memory,
@@ -94,7 +94,7 @@ export default {
             config: content.config,
             creationMethod: 2,
             envList: {},
-            templateId: "Eliza",
+            templateId: "TELE",
         };
 
         const sendPostRequest = async () => {

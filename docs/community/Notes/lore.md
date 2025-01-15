@@ -75,7 +75,7 @@ Week 1 Recap: ai16z Launch and Early Developments
         - ai16z: DAO-based, PvE, community-focused
         - DegenAI: Trading agent, PvP, aggressive
         - Llama 405B model used, continuous fine-tuning
-    - [10-25-24 Space](https://x.com/shawmakesmagic/status/1848553697611301014): Eliza framework, bot capabilities, AI and crypto symbiosis
+    - [10-25-24 Space](https://x.com/shawmakesmagic/status/1848553697611301014): TELE framework, bot capabilities, AI and crypto symbiosis
         - Bot can tweet, reply, search Twitter, and generate posts autonomously
         - Personality defined by character files with bios, lore, example conversations, and directions
 
